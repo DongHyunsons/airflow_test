@@ -1,0 +1,69 @@
+[2022-02-15 07:46:57,405] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: my_first_dag.send_email 2022-02-14T00:00:00+00:00 [queued]>
+[2022-02-15 07:46:57,409] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: my_first_dag.send_email 2022-02-14T00:00:00+00:00 [queued]>
+[2022-02-15 07:46:57,409] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-15 07:46:57,409] {__init__.py:1354} INFO - Starting attempt 5 of 5
+[2022-02-15 07:46:57,409] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-15 07:46:57,418] {__init__.py:1374} INFO - Executing <Task(EmailOperator): send_email> on 2022-02-14T00:00:00+00:00
+[2022-02-15 07:46:57,418] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'my_first_dag', 'send_email', '2022-02-14T00:00:00+00:00', '--job_id', '14', '--raw', '-sd', 'DAGS_FOLDER/my_first.py', '--cfg_path', '/tmp/tmpvqhsknxf']
+[2022-02-15 07:46:57,799] {base_task_runner.py:101} INFO - Job 14: Subtask send_email [2022-02-15 07:46:57,799] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2022-02-15 07:46:57,960] {base_task_runner.py:101} INFO - Job 14: Subtask send_email [2022-02-15 07:46:57,960] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_first.py
+[2022-02-15 07:46:57,970] {base_task_runner.py:101} INFO - Job 14: Subtask send_email [2022-02-15 07:46:57,970] {cli.py:517} INFO - Running <TaskInstance: my_first_dag.send_email 2022-02-14T00:00:00+00:00 [running]> on host 4c5aeb1c47d1
+[2022-02-15 07:46:58,030] {__init__.py:1580} ERROR - [Errno -2] Name or service not known
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/opt/conda/lib/python3.7/site-packages/airflow/operators/email_operator.py", line 78, in execute
+    mime_subtype=self.mime_subtype, mime_charset=self.mime_charset)
+  File "/opt/conda/lib/python3.7/site-packages/airflow/utils/email.py", line 55, in send_email
+    mime_subtype=mime_subtype, mime_charset=mime_charset, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/airflow/utils/email.py", line 101, in send_email_smtp
+    send_MIME_email(smtp_mail_from, recipients, msg, dryrun)
+  File "/opt/conda/lib/python3.7/site-packages/airflow/utils/email.py", line 121, in send_MIME_email
+    s = smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT) if SMTP_SSL else smtplib.SMTP(SMTP_HOST, SMTP_PORT)
+  File "/opt/conda/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/opt/conda/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/opt/conda/lib/python3.7/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/opt/conda/lib/python3.7/socket.py", line 707, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/opt/conda/lib/python3.7/socket.py", line 752, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+[2022-02-15 07:46:58,032] {__init__.py:1611} INFO - Marking task as FAILED.
+[2022-02-15 07:46:58,046] {base_task_runner.py:101} INFO - Job 14: Subtask send_email Traceback (most recent call last):
+[2022-02-15 07:46:58,046] {base_task_runner.py:101} INFO - Job 14: Subtask send_email   File "/opt/conda/bin/airflow", line 32, in <module>
+[2022-02-15 07:46:58,046] {base_task_runner.py:101} INFO - Job 14: Subtask send_email     args.func(args)
+[2022-02-15 07:46:58,046] {base_task_runner.py:101} INFO - Job 14: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/utils/cli.py", line 74, in wrapper
+[2022-02-15 07:46:58,046] {base_task_runner.py:101} INFO - Job 14: Subtask send_email     return f(*args, **kwargs)
+[2022-02-15 07:46:58,046] {base_task_runner.py:101} INFO - Job 14: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/bin/cli.py", line 523, in run
+[2022-02-15 07:46:58,046] {base_task_runner.py:101} INFO - Job 14: Subtask send_email     _run(args, dag, ti)
+[2022-02-15 07:46:58,046] {base_task_runner.py:101} INFO - Job 14: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/bin/cli.py", line 442, in _run
+[2022-02-15 07:46:58,046] {base_task_runner.py:101} INFO - Job 14: Subtask send_email     pool=args.pool,
+[2022-02-15 07:46:58,046] {base_task_runner.py:101} INFO - Job 14: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/utils/db.py", line 73, in wrapper
+[2022-02-15 07:46:58,046] {base_task_runner.py:101} INFO - Job 14: Subtask send_email     return func(*args, **kwargs)
+[2022-02-15 07:46:58,046] {base_task_runner.py:101} INFO - Job 14: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+[2022-02-15 07:46:58,046] {base_task_runner.py:101} INFO - Job 14: Subtask send_email     result = task_copy.execute(context=context)
+[2022-02-15 07:46:58,046] {base_task_runner.py:101} INFO - Job 14: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/operators/email_operator.py", line 78, in execute
+[2022-02-15 07:46:58,046] {base_task_runner.py:101} INFO - Job 14: Subtask send_email     mime_subtype=self.mime_subtype, mime_charset=self.mime_charset)
+[2022-02-15 07:46:58,046] {base_task_runner.py:101} INFO - Job 14: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/utils/email.py", line 55, in send_email
+[2022-02-15 07:46:58,046] {base_task_runner.py:101} INFO - Job 14: Subtask send_email     mime_subtype=mime_subtype, mime_charset=mime_charset, **kwargs)
+[2022-02-15 07:46:58,046] {base_task_runner.py:101} INFO - Job 14: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/utils/email.py", line 101, in send_email_smtp
+[2022-02-15 07:46:58,046] {base_task_runner.py:101} INFO - Job 14: Subtask send_email     send_MIME_email(smtp_mail_from, recipients, msg, dryrun)
+[2022-02-15 07:46:58,046] {base_task_runner.py:101} INFO - Job 14: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/utils/email.py", line 121, in send_MIME_email
+[2022-02-15 07:46:58,046] {base_task_runner.py:101} INFO - Job 14: Subtask send_email     s = smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT) if SMTP_SSL else smtplib.SMTP(SMTP_HOST, SMTP_PORT)
+[2022-02-15 07:46:58,046] {base_task_runner.py:101} INFO - Job 14: Subtask send_email   File "/opt/conda/lib/python3.7/smtplib.py", line 251, in __init__
+[2022-02-15 07:46:58,046] {base_task_runner.py:101} INFO - Job 14: Subtask send_email     (code, msg) = self.connect(host, port)
+[2022-02-15 07:46:58,046] {base_task_runner.py:101} INFO - Job 14: Subtask send_email   File "/opt/conda/lib/python3.7/smtplib.py", line 336, in connect
+[2022-02-15 07:46:58,046] {base_task_runner.py:101} INFO - Job 14: Subtask send_email     self.sock = self._get_socket(host, port, self.timeout)
+[2022-02-15 07:46:58,046] {base_task_runner.py:101} INFO - Job 14: Subtask send_email   File "/opt/conda/lib/python3.7/smtplib.py", line 307, in _get_socket
+[2022-02-15 07:46:58,046] {base_task_runner.py:101} INFO - Job 14: Subtask send_email     self.source_address)
+[2022-02-15 07:46:58,046] {base_task_runner.py:101} INFO - Job 14: Subtask send_email   File "/opt/conda/lib/python3.7/socket.py", line 707, in create_connection
+[2022-02-15 07:46:58,046] {base_task_runner.py:101} INFO - Job 14: Subtask send_email     for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+[2022-02-15 07:46:58,046] {base_task_runner.py:101} INFO - Job 14: Subtask send_email   File "/opt/conda/lib/python3.7/socket.py", line 752, in getaddrinfo
+[2022-02-15 07:46:58,046] {base_task_runner.py:101} INFO - Job 14: Subtask send_email     for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+[2022-02-15 07:46:58,046] {base_task_runner.py:101} INFO - Job 14: Subtask send_email socket.gaierror: [Errno -2] Name or service not known
+[2022-02-15 07:47:02,411] {logging_mixin.py:95} INFO - [2022-02-15 07:47:02,411] {jobs.py:2562} INFO - Task exited with return code 1

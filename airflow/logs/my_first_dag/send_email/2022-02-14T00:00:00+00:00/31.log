@@ -1,0 +1,17 @@
+[2022-02-15 09:04:57,147] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: my_first_dag.send_email 2022-02-14T00:00:00+00:00 [queued]>
+[2022-02-15 09:04:57,153] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: my_first_dag.send_email 2022-02-14T00:00:00+00:00 [queued]>
+[2022-02-15 09:04:57,153] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-15 09:04:57,153] {__init__.py:1354} INFO - Starting attempt 31 of 31
+[2022-02-15 09:04:57,153] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-15 09:04:57,162] {__init__.py:1374} INFO - Executing <Task(EmailOperator): send_email> on 2022-02-14T00:00:00+00:00
+[2022-02-15 09:04:57,162] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'my_first_dag', 'send_email', '2022-02-14T00:00:00+00:00', '--job_id', '64', '--raw', '-sd', 'DAGS_FOLDER/my_first.py', '--cfg_path', '/tmp/tmpuunv6xok']
+[2022-02-15 09:04:57,564] {base_task_runner.py:101} INFO - Job 64: Subtask send_email [2022-02-15 09:04:57,564] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2022-02-15 09:04:57,718] {base_task_runner.py:101} INFO - Job 64: Subtask send_email [2022-02-15 09:04:57,718] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_first.py
+[2022-02-15 09:04:57,728] {base_task_runner.py:101} INFO - Job 64: Subtask send_email [2022-02-15 09:04:57,728] {cli.py:517} INFO - Running <TaskInstance: my_first_dag.send_email 2022-02-14T00:00:00+00:00 [running]> on host 4c5aeb1c47d1
+[2022-02-15 09:04:59,753] {logging_mixin.py:95} INFO - [2022-02-15 09:04:59,753] {email.py:126} INFO - Sent an alert email to ['sondonghyun7@hyundai-autoever.com']
+[2022-02-15 09:05:02,153] {logging_mixin.py:95} INFO - [2022-02-15 09:05:02,153] {jobs.py:2630} WARNING - State of this instance has been externally set to success. Taking the poison pill.
+[2022-02-15 09:05:02,155] {helpers.py:281} INFO - Sending Signals.SIGTERM to GPID 4488
+[2022-02-15 09:05:02,162] {helpers.py:263} INFO - Process psutil.Process(pid=4488, status='terminated', exitcode=<Negsignal.SIGTERM: -15>, started='09:04:56') (4488) terminated with exit code Negsignal.SIGTERM
+[2022-02-15 09:05:02,163] {logging_mixin.py:95} INFO - [2022-02-15 09:05:02,163] {jobs.py:2562} INFO - Task exited with return code 0

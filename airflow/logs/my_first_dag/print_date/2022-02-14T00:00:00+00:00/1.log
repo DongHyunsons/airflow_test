@@ -1,0 +1,25 @@
+[2022-02-15 07:09:42,952] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: my_first_dag.print_date 2022-02-14T00:00:00+00:00 [queued]>
+[2022-02-15 07:09:42,954] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: my_first_dag.print_date 2022-02-14T00:00:00+00:00 [queued]>
+[2022-02-15 07:09:42,954] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-15 07:09:42,954] {__init__.py:1354} INFO - Starting attempt 1 of 1
+[2022-02-15 07:09:42,954] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-15 07:09:42,964] {__init__.py:1374} INFO - Executing <Task(BashOperator): print_date> on 2022-02-14T00:00:00+00:00
+[2022-02-15 07:09:42,964] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'my_first_dag', 'print_date', '2022-02-14T00:00:00+00:00', '--job_id', '3', '--raw', '-sd', 'DAGS_FOLDER/my_first.py', '--cfg_path', '/tmp/tmpsxhk2b0g']
+[2022-02-15 07:09:43,347] {base_task_runner.py:101} INFO - Job 3: Subtask print_date [2022-02-15 07:09:43,347] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2022-02-15 07:09:43,523] {base_task_runner.py:101} INFO - Job 3: Subtask print_date [2022-02-15 07:09:43,523] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_first.py
+[2022-02-15 07:09:43,535] {base_task_runner.py:101} INFO - Job 3: Subtask print_date [2022-02-15 07:09:43,534] {cli.py:517} INFO - Running <TaskInstance: my_first_dag.print_date 2022-02-14T00:00:00+00:00 [running]> on host 4c5aeb1c47d1
+[2022-02-15 07:09:43,544] {bash_operator.py:81} INFO - Tmp dir root location: 
+ /tmp
+[2022-02-15 07:09:43,544] {bash_operator.py:90} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=my_first_dag
+AIRFLOW_CTX_TASK_ID=print_date
+AIRFLOW_CTX_EXECUTION_DATE=2022-02-14T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-02-14T00:00:00+00:00
+[2022-02-15 07:09:43,544] {bash_operator.py:104} INFO - Temporary script location: /tmp/airflowtmp494f_1hf/print_datez3wi36t7
+[2022-02-15 07:09:43,544] {bash_operator.py:114} INFO - Running command: date
+[2022-02-15 07:09:43,548] {bash_operator.py:123} INFO - Output:
+[2022-02-15 07:09:43,549] {bash_operator.py:127} INFO - Tue Feb 15 07:09:43 UTC 2022
+[2022-02-15 07:09:43,549] {bash_operator.py:131} INFO - Command exited with return code 0
+[2022-02-15 07:09:47,961] {logging_mixin.py:95} INFO - [2022-02-15 07:09:47,961] {jobs.py:2562} INFO - Task exited with return code 0

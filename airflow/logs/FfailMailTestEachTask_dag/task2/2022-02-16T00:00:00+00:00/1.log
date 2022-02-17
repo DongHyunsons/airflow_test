@@ -1,0 +1,25 @@
+[2022-02-17 06:20:16,631] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: FfailMailTestEachTask_dag.task2 2022-02-16T00:00:00+00:00 [queued]>
+[2022-02-17 06:20:16,636] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: FfailMailTestEachTask_dag.task2 2022-02-16T00:00:00+00:00 [queued]>
+[2022-02-17 06:20:16,636] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-17 06:20:16,636] {__init__.py:1354} INFO - Starting attempt 1 of 1
+[2022-02-17 06:20:16,636] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-17 06:20:16,645] {__init__.py:1374} INFO - Executing <Task(BashOperator): task2> on 2022-02-16T00:00:00+00:00
+[2022-02-17 06:20:16,645] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'FfailMailTestEachTask_dag', 'task2', '2022-02-16T00:00:00+00:00', '--job_id', '137', '--raw', '-sd', 'DAGS_FOLDER/FFFailMailTestEachTask.py', '--cfg_path', '/tmp/tmpfh9r81kp']
+[2022-02-17 06:20:17,031] {base_task_runner.py:101} INFO - Job 137: Subtask task2 [2022-02-17 06:20:17,031] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2022-02-17 06:20:17,183] {base_task_runner.py:101} INFO - Job 137: Subtask task2 [2022-02-17 06:20:17,183] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:20:17,194] {base_task_runner.py:101} INFO - Job 137: Subtask task2 [2022-02-17 06:20:17,194] {cli.py:517} INFO - Running <TaskInstance: FfailMailTestEachTask_dag.task2 2022-02-16T00:00:00+00:00 [running]> on host 4c5aeb1c47d1
+[2022-02-17 06:20:17,203] {bash_operator.py:81} INFO - Tmp dir root location: 
+ /tmp
+[2022-02-17 06:20:17,203] {bash_operator.py:90} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=FfailMailTestEachTask_dag
+AIRFLOW_CTX_TASK_ID=task2
+AIRFLOW_CTX_EXECUTION_DATE=2022-02-16T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-02-16T00:00:00+00:00
+[2022-02-17 06:20:17,204] {bash_operator.py:104} INFO - Temporary script location: /tmp/airflowtmpgbulbykf/task2i6lak5t0
+[2022-02-17 06:20:17,204] {bash_operator.py:114} INFO - Running command: whoami
+[2022-02-17 06:20:17,207] {bash_operator.py:123} INFO - Output:
+[2022-02-17 06:20:17,209] {bash_operator.py:127} INFO - jovyan
+[2022-02-17 06:20:17,209] {bash_operator.py:131} INFO - Command exited with return code 0
+[2022-02-17 06:20:21,630] {logging_mixin.py:95} INFO - [2022-02-17 06:20:21,630] {jobs.py:2562} INFO - Task exited with return code 0

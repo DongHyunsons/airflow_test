@@ -1,0 +1,69 @@
+[2022-02-15 08:30:33,526] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: my_first_dag.send_email 2022-02-14T00:00:00+00:00 [queued]>
+[2022-02-15 08:30:33,531] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: my_first_dag.send_email 2022-02-14T00:00:00+00:00 [queued]>
+[2022-02-15 08:30:33,531] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-15 08:30:33,531] {__init__.py:1354} INFO - Starting attempt 16 of 16
+[2022-02-15 08:30:33,531] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-15 08:30:33,540] {__init__.py:1374} INFO - Executing <Task(EmailOperator): send_email> on 2022-02-14T00:00:00+00:00
+[2022-02-15 08:30:33,540] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'my_first_dag', 'send_email', '2022-02-14T00:00:00+00:00', '--job_id', '36', '--raw', '-sd', 'DAGS_FOLDER/my_first.py', '--cfg_path', '/tmp/tmp8ll46hiw']
+[2022-02-15 08:30:33,938] {base_task_runner.py:101} INFO - Job 36: Subtask send_email [2022-02-15 08:30:33,938] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2022-02-15 08:30:34,094] {base_task_runner.py:101} INFO - Job 36: Subtask send_email [2022-02-15 08:30:34,094] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_first.py
+[2022-02-15 08:30:34,104] {base_task_runner.py:101} INFO - Job 36: Subtask send_email [2022-02-15 08:30:34,104] {cli.py:517} INFO - Running <TaskInstance: my_first_dag.send_email 2022-02-14T00:00:00+00:00 [running]> on host 4c5aeb1c47d1
+[2022-02-15 08:30:55,360] {__init__.py:1580} ERROR - [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/opt/conda/lib/python3.7/site-packages/airflow/operators/email_operator.py", line 78, in execute
+    mime_subtype=self.mime_subtype, mime_charset=self.mime_charset)
+  File "/opt/conda/lib/python3.7/site-packages/airflow/utils/email.py", line 55, in send_email
+    mime_subtype=mime_subtype, mime_charset=mime_charset, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/airflow/utils/email.py", line 101, in send_email_smtp
+    send_MIME_email(smtp_mail_from, recipients, msg, dryrun)
+  File "/opt/conda/lib/python3.7/site-packages/airflow/utils/email.py", line 121, in send_MIME_email
+    s = smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT) if SMTP_SSL else smtplib.SMTP(SMTP_HOST, SMTP_PORT)
+  File "/opt/conda/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/opt/conda/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/opt/conda/lib/python3.7/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/opt/conda/lib/python3.7/socket.py", line 728, in create_connection
+    raise err
+  File "/opt/conda/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+[2022-02-15 08:30:55,361] {__init__.py:1611} INFO - Marking task as FAILED.
+[2022-02-15 08:30:55,376] {base_task_runner.py:101} INFO - Job 36: Subtask send_email Traceback (most recent call last):
+[2022-02-15 08:30:55,376] {base_task_runner.py:101} INFO - Job 36: Subtask send_email   File "/opt/conda/bin/airflow", line 32, in <module>
+[2022-02-15 08:30:55,376] {base_task_runner.py:101} INFO - Job 36: Subtask send_email     args.func(args)
+[2022-02-15 08:30:55,376] {base_task_runner.py:101} INFO - Job 36: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/utils/cli.py", line 74, in wrapper
+[2022-02-15 08:30:55,376] {base_task_runner.py:101} INFO - Job 36: Subtask send_email     return f(*args, **kwargs)
+[2022-02-15 08:30:55,376] {base_task_runner.py:101} INFO - Job 36: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/bin/cli.py", line 523, in run
+[2022-02-15 08:30:55,376] {base_task_runner.py:101} INFO - Job 36: Subtask send_email     _run(args, dag, ti)
+[2022-02-15 08:30:55,377] {base_task_runner.py:101} INFO - Job 36: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/bin/cli.py", line 442, in _run
+[2022-02-15 08:30:55,377] {base_task_runner.py:101} INFO - Job 36: Subtask send_email     pool=args.pool,
+[2022-02-15 08:30:55,377] {base_task_runner.py:101} INFO - Job 36: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/utils/db.py", line 73, in wrapper
+[2022-02-15 08:30:55,377] {base_task_runner.py:101} INFO - Job 36: Subtask send_email     return func(*args, **kwargs)
+[2022-02-15 08:30:55,377] {base_task_runner.py:101} INFO - Job 36: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+[2022-02-15 08:30:55,377] {base_task_runner.py:101} INFO - Job 36: Subtask send_email     result = task_copy.execute(context=context)
+[2022-02-15 08:30:55,377] {base_task_runner.py:101} INFO - Job 36: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/operators/email_operator.py", line 78, in execute
+[2022-02-15 08:30:55,377] {base_task_runner.py:101} INFO - Job 36: Subtask send_email     mime_subtype=self.mime_subtype, mime_charset=self.mime_charset)
+[2022-02-15 08:30:55,377] {base_task_runner.py:101} INFO - Job 36: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/utils/email.py", line 55, in send_email
+[2022-02-15 08:30:55,377] {base_task_runner.py:101} INFO - Job 36: Subtask send_email     mime_subtype=mime_subtype, mime_charset=mime_charset, **kwargs)
+[2022-02-15 08:30:55,377] {base_task_runner.py:101} INFO - Job 36: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/utils/email.py", line 101, in send_email_smtp
+[2022-02-15 08:30:55,377] {base_task_runner.py:101} INFO - Job 36: Subtask send_email     send_MIME_email(smtp_mail_from, recipients, msg, dryrun)
+[2022-02-15 08:30:55,377] {base_task_runner.py:101} INFO - Job 36: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/utils/email.py", line 121, in send_MIME_email
+[2022-02-15 08:30:55,377] {base_task_runner.py:101} INFO - Job 36: Subtask send_email     s = smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT) if SMTP_SSL else smtplib.SMTP(SMTP_HOST, SMTP_PORT)
+[2022-02-15 08:30:55,377] {base_task_runner.py:101} INFO - Job 36: Subtask send_email   File "/opt/conda/lib/python3.7/smtplib.py", line 251, in __init__
+[2022-02-15 08:30:55,377] {base_task_runner.py:101} INFO - Job 36: Subtask send_email     (code, msg) = self.connect(host, port)
+[2022-02-15 08:30:55,377] {base_task_runner.py:101} INFO - Job 36: Subtask send_email   File "/opt/conda/lib/python3.7/smtplib.py", line 336, in connect
+[2022-02-15 08:30:55,377] {base_task_runner.py:101} INFO - Job 36: Subtask send_email     self.sock = self._get_socket(host, port, self.timeout)
+[2022-02-15 08:30:55,377] {base_task_runner.py:101} INFO - Job 36: Subtask send_email   File "/opt/conda/lib/python3.7/smtplib.py", line 307, in _get_socket
+[2022-02-15 08:30:55,377] {base_task_runner.py:101} INFO - Job 36: Subtask send_email     self.source_address)
+[2022-02-15 08:30:55,377] {base_task_runner.py:101} INFO - Job 36: Subtask send_email   File "/opt/conda/lib/python3.7/socket.py", line 728, in create_connection
+[2022-02-15 08:30:55,377] {base_task_runner.py:101} INFO - Job 36: Subtask send_email     raise err
+[2022-02-15 08:30:55,377] {base_task_runner.py:101} INFO - Job 36: Subtask send_email   File "/opt/conda/lib/python3.7/socket.py", line 716, in create_connection
+[2022-02-15 08:30:55,377] {base_task_runner.py:101} INFO - Job 36: Subtask send_email     sock.connect(sa)
+[2022-02-15 08:30:55,377] {base_task_runner.py:101} INFO - Job 36: Subtask send_email ConnectionRefusedError: [Errno 111] Connection refused
+[2022-02-15 08:30:58,554] {logging_mixin.py:95} INFO - [2022-02-15 08:30:58,553] {jobs.py:2562} INFO - Task exited with return code 1

@@ -1,0 +1,281 @@
+[2022-02-17 05:21:35,724] {jobs.py:398} INFO - Started process (PID=19803) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:21:35,725] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:21:35,725] {logging_mixin.py:95} INFO - [2022-02-17 05:21:35,725] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:21:35,730] {jobs.py:1723} INFO - DAG(s) dict_keys(['my_second_dag']) retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:21:35,746] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.022 seconds
+[2022-02-17 05:21:41,070] {jobs.py:398} INFO - Started process (PID=19839) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:21:41,072] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:21:41,073] {logging_mixin.py:95} INFO - [2022-02-17 05:21:41,073] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:21:41,076] {jobs.py:1723} INFO - DAG(s) dict_keys(['my_second_dag']) retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:21:41,092] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.021 seconds
+[2022-02-17 05:22:17,444] {jobs.py:398} INFO - Started process (PID=20189) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:22:17,446] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:22:17,446] {logging_mixin.py:95} INFO - [2022-02-17 05:22:17,446] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:22:17,451] {jobs.py:1723} INFO - DAG(s) dict_keys(['my_second_dag']) retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:22:17,466] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.021 seconds
+[2022-02-17 05:22:21,768] {jobs.py:398} INFO - Started process (PID=20225) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:22:21,770] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:22:21,770] {logging_mixin.py:95} INFO - [2022-02-17 05:22:21,770] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:22:21,774] {jobs.py:1723} INFO - DAG(s) dict_keys(['my_second_dag']) retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:22:21,794] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.026 seconds
+[2022-02-17 05:22:27,117] {jobs.py:398} INFO - Started process (PID=20266) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:22:27,118] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:22:27,118] {logging_mixin.py:95} INFO - [2022-02-17 05:22:27,118] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:22:27,123] {jobs.py:1723} INFO - DAG(s) dict_keys(['my_second_dag']) retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:22:27,139] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.022 seconds
+[2022-02-17 05:22:32,463] {jobs.py:398} INFO - Started process (PID=20310) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:22:32,465] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:22:32,465] {logging_mixin.py:95} INFO - [2022-02-17 05:22:32,465] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:22:32,470] {jobs.py:1723} INFO - DAG(s) dict_keys(['my_email_dag']) retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:22:32,475] {logging_mixin.py:95} INFO - [2022-02-17 05:22:32,474] {__init__.py:4113} INFO - Creating ORM DAG for my_email_dag
+[2022-02-17 05:22:32,486] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.023 seconds
+[2022-02-17 05:22:34,214] {jobs.py:398} INFO - Started process (PID=20324) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:22:34,216] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:22:34,216] {logging_mixin.py:95} INFO - [2022-02-17 05:22:34,216] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:22:34,221] {jobs.py:1723} INFO - DAG(s) dict_keys(['my_email_dag']) retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:22:34,239] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.024 seconds
+[2022-02-17 05:22:55,542] {jobs.py:398} INFO - Started process (PID=20598) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:22:55,544] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:22:55,544] {logging_mixin.py:95} INFO - [2022-02-17 05:22:55,544] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:22:55,548] {jobs.py:1723} INFO - DAG(s) dict_keys(['my_email_dag']) retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:22:55,564] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.022 seconds
+[2022-02-17 05:23:02,951] {jobs.py:398} INFO - Started process (PID=20751) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:02,954] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:23:02,954] {logging_mixin.py:95} INFO - [2022-02-17 05:23:02,954] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:02,958] {jobs.py:1723} INFO - DAG(s) dict_keys(['my_email_dag']) retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:02,976] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.025 seconds
+[2022-02-17 05:23:03,496] {jobs.py:398} INFO - Started process (PID=20757) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:03,497] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:23:03,498] {logging_mixin.py:95} INFO - [2022-02-17 05:23:03,498] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:03,502] {jobs.py:1723} INFO - DAG(s) dict_keys(['my_email_dag']) retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:03,519] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.023 seconds
+[2022-02-17 05:23:04,847] {jobs.py:398} INFO - Started process (PID=20769) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:04,848] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:23:04,848] {logging_mixin.py:95} INFO - [2022-02-17 05:23:04,848] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:04,852] {jobs.py:1723} INFO - DAG(s) dict_keys(['my_email_dag']) retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:04,868] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.021 seconds
+[2022-02-17 05:23:07,818] {jobs.py:398} INFO - Started process (PID=20804) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:07,820] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:23:07,820] {logging_mixin.py:95} INFO - [2022-02-17 05:23:07,820] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:07,824] {jobs.py:1723} INFO - DAG(s) dict_keys(['my_email_dag']) retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:07,842] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.024 seconds
+[2022-02-17 05:23:13,165] {jobs.py:398} INFO - Started process (PID=20854) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:13,167] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:23:13,167] {logging_mixin.py:95} INFO - [2022-02-17 05:23:13,167] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:13,171] {jobs.py:1723} INFO - DAG(s) dict_keys(['my_email_dag']) retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:13,186] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.021 seconds
+[2022-02-17 05:23:18,514] {jobs.py:398} INFO - Started process (PID=20908) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:18,516] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:23:18,516] {logging_mixin.py:95} INFO - [2022-02-17 05:23:18,516] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:18,520] {jobs.py:1723} INFO - DAG(s) dict_keys(['my_email_dag']) retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:18,542] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.028 seconds
+[2022-02-17 05:23:20,264] {jobs.py:398} INFO - Started process (PID=20926) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:20,266] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:23:20,266] {logging_mixin.py:95} INFO - [2022-02-17 05:23:20,266] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:20,270] {jobs.py:1723} INFO - DAG(s) dict_keys(['my_email_dag']) retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:20,286] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.021 seconds
+[2022-02-17 05:23:41,592] {jobs.py:398} INFO - Started process (PID=21155) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:41,594] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:23:41,594] {logging_mixin.py:95} INFO - [2022-02-17 05:23:41,594] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:41,594] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:41,595] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.003 seconds
+[2022-02-17 05:23:48,998] {jobs.py:398} INFO - Started process (PID=21227) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:49,000] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:23:49,000] {logging_mixin.py:95} INFO - [2022-02-17 05:23:49,000] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:49,001] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:49,001] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.003 seconds
+[2022-02-17 05:23:49,546] {jobs.py:398} INFO - Started process (PID=21233) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:49,548] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:23:49,548] {logging_mixin.py:95} INFO - [2022-02-17 05:23:49,548] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:49,548] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:49,549] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.003 seconds
+[2022-02-17 05:23:50,897] {jobs.py:398} INFO - Started process (PID=21245) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:50,899] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:23:50,899] {logging_mixin.py:95} INFO - [2022-02-17 05:23:50,899] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:50,899] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:50,900] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.002 seconds
+[2022-02-17 05:23:53,870] {jobs.py:398} INFO - Started process (PID=21282) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:53,872] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:23:53,872] {logging_mixin.py:95} INFO - [2022-02-17 05:23:53,872] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:53,873] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:53,873] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.003 seconds
+[2022-02-17 05:23:59,215] {jobs.py:398} INFO - Started process (PID=21419) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:59,216] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:23:59,217] {logging_mixin.py:95} INFO - [2022-02-17 05:23:59,217] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:59,217] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:23:59,218] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.003 seconds
+[2022-02-17 05:24:04,565] {jobs.py:398} INFO - Started process (PID=21477) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:24:04,568] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:24:04,568] {logging_mixin.py:95} INFO - [2022-02-17 05:24:04,568] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:24:04,568] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:24:04,569] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.004 seconds
+[2022-02-17 05:24:06,313] {jobs.py:398} INFO - Started process (PID=21498) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:24:06,315] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:24:06,315] {logging_mixin.py:95} INFO - [2022-02-17 05:24:06,315] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:24:06,315] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:24:06,316] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.003 seconds
+[2022-02-17 05:24:17,277] {jobs.py:398} INFO - Started process (PID=21647) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:24:17,279] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:24:17,279] {logging_mixin.py:95} INFO - [2022-02-17 05:24:17,279] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:24:17,279] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:24:17,280] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.003 seconds
+[2022-02-17 05:24:27,641] {jobs.py:398} INFO - Started process (PID=21774) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:24:27,643] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:24:27,643] {logging_mixin.py:95} INFO - [2022-02-17 05:24:27,643] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:24:27,644] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:24:27,644] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.003 seconds
+[2022-02-17 05:24:35,049] {jobs.py:398} INFO - Started process (PID=21855) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:24:35,051] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:24:35,051] {logging_mixin.py:95} INFO - [2022-02-17 05:24:35,051] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:24:35,051] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:24:35,051] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.002 seconds
+[2022-02-17 05:24:35,592] {jobs.py:398} INFO - Started process (PID=21861) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:24:35,593] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:24:35,594] {logging_mixin.py:95} INFO - [2022-02-17 05:24:35,594] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:24:35,594] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:24:35,595] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.003 seconds
+[2022-02-17 05:24:36,952] {jobs.py:398} INFO - Started process (PID=21875) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:24:36,953] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:24:36,953] {logging_mixin.py:95} INFO - [2022-02-17 05:24:36,953] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:24:36,954] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:24:36,954] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.003 seconds
+[2022-02-17 05:24:39,915] {jobs.py:398} INFO - Started process (PID=21909) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:24:39,917] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:24:39,917] {logging_mixin.py:95} INFO - [2022-02-17 05:24:39,917] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:24:39,917] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:24:39,918] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.002 seconds
+[2022-02-17 05:24:45,267] {jobs.py:398} INFO - Started process (PID=21967) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:24:45,269] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:24:45,269] {logging_mixin.py:95} INFO - [2022-02-17 05:24:45,269] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:24:45,270] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:24:45,270] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.003 seconds
+[2022-02-17 05:24:50,613] {jobs.py:398} INFO - Started process (PID=22023) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:24:50,614] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:24:50,614] {logging_mixin.py:95} INFO - [2022-02-17 05:24:50,614] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:24:50,615] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:24:50,615] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.003 seconds
+[2022-02-17 05:24:52,364] {jobs.py:398} INFO - Started process (PID=22043) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:24:52,365] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:24:52,366] {logging_mixin.py:95} INFO - [2022-02-17 05:24:52,366] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:24:52,366] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:24:52,366] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.003 seconds
+[2022-02-17 05:25:03,328] {jobs.py:398} INFO - Started process (PID=22179) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:25:03,330] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:25:03,330] {logging_mixin.py:95} INFO - [2022-02-17 05:25:03,330] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:25:03,330] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:25:03,331] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.002 seconds
+[2022-02-17 05:25:13,687] {jobs.py:398} INFO - Started process (PID=22293) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:25:13,689] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:25:13,689] {logging_mixin.py:95} INFO - [2022-02-17 05:25:13,689] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:25:13,689] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:25:13,690] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.003 seconds
+[2022-02-17 05:25:21,100] {jobs.py:398} INFO - Started process (PID=22373) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:25:21,102] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:25:21,102] {logging_mixin.py:95} INFO - [2022-02-17 05:25:21,102] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:25:21,103] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:25:21,103] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.003 seconds
+[2022-02-17 05:25:21,642] {jobs.py:398} INFO - Started process (PID=22379) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:25:21,643] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:25:21,644] {logging_mixin.py:95} INFO - [2022-02-17 05:25:21,644] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:25:21,644] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:25:21,644] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.003 seconds
+[2022-02-17 05:25:22,999] {jobs.py:398} INFO - Started process (PID=22393) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:25:23,001] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:25:23,001] {logging_mixin.py:95} INFO - [2022-02-17 05:25:23,001] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:25:23,002] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:25:23,002] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.003 seconds
+[2022-02-17 05:25:25,968] {jobs.py:398} INFO - Started process (PID=22427) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:25:25,970] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:25:25,970] {logging_mixin.py:95} INFO - [2022-02-17 05:25:25,970] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:25:25,970] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:25:25,971] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.003 seconds
+[2022-02-17 05:25:31,318] {jobs.py:398} INFO - Started process (PID=22497) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:25:31,321] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:25:31,321] {logging_mixin.py:95} INFO - [2022-02-17 05:25:31,321] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:25:31,322] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:25:31,322] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.004 seconds
+[2022-02-17 05:25:36,662] {jobs.py:398} INFO - Started process (PID=22553) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:25:36,664] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:25:36,664] {logging_mixin.py:95} INFO - [2022-02-17 05:25:36,664] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:25:36,664] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:25:36,665] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.003 seconds
+[2022-02-17 05:25:38,419] {jobs.py:398} INFO - Started process (PID=22573) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:25:38,421] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:25:38,421] {logging_mixin.py:95} INFO - [2022-02-17 05:25:38,421] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:25:38,422] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:25:38,422] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.003 seconds
+[2022-02-17 05:25:49,378] {jobs.py:398} INFO - Started process (PID=22697) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:25:49,380] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:25:49,380] {logging_mixin.py:95} INFO - [2022-02-17 05:25:49,380] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:25:49,381] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:25:49,381] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.003 seconds
+[2022-02-17 05:25:59,737] {jobs.py:398} INFO - Started process (PID=22811) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:25:59,739] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:25:59,739] {logging_mixin.py:95} INFO - [2022-02-17 05:25:59,739] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:25:59,740] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:25:59,740] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.003 seconds
+[2022-02-17 05:26:07,151] {jobs.py:398} INFO - Started process (PID=22903) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:26:07,153] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:26:07,153] {logging_mixin.py:95} INFO - [2022-02-17 05:26:07,153] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:26:07,154] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:26:07,154] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.004 seconds
+[2022-02-17 05:26:07,694] {jobs.py:398} INFO - Started process (PID=22909) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:26:07,695] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:26:07,696] {logging_mixin.py:95} INFO - [2022-02-17 05:26:07,696] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:26:07,696] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:26:07,696] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.002 seconds
+[2022-02-17 05:26:09,048] {jobs.py:398} INFO - Started process (PID=22923) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:26:09,050] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:26:09,050] {logging_mixin.py:95} INFO - [2022-02-17 05:26:09,050] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:26:09,051] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:26:09,051] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.003 seconds
+[2022-02-17 05:26:22,713] {jobs.py:398} INFO - Started process (PID=23071) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:26:22,715] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:26:22,715] {logging_mixin.py:95} INFO - [2022-02-17 05:26:22,715] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:26:22,716] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:26:22,716] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.003 seconds
+[2022-02-17 05:26:35,428] {jobs.py:398} INFO - Started process (PID=23227) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:26:35,430] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:26:35,430] {logging_mixin.py:95} INFO - [2022-02-17 05:26:35,430] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:26:35,431] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:26:35,431] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.003 seconds
+[2022-02-17 05:26:45,782] {jobs.py:398} INFO - Started process (PID=23341) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:26:45,784] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:26:45,784] {logging_mixin.py:95} INFO - [2022-02-17 05:26:45,784] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:26:45,784] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:26:45,785] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.003 seconds
+[2022-02-17 05:26:53,204] {jobs.py:398} INFO - Started process (PID=23421) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:26:53,206] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:26:53,206] {logging_mixin.py:95} INFO - [2022-02-17 05:26:53,206] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:26:53,207] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:26:53,207] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.003 seconds
+[2022-02-17 05:26:53,743] {jobs.py:398} INFO - Started process (PID=23427) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:26:53,745] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:26:53,745] {logging_mixin.py:95} INFO - [2022-02-17 05:26:53,745] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:26:53,745] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:26:53,746] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.003 seconds
+[2022-02-17 05:26:55,098] {jobs.py:398} INFO - Started process (PID=23441) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:26:55,100] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:26:55,100] {logging_mixin.py:95} INFO - [2022-02-17 05:26:55,100] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:26:55,100] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:26:55,101] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.003 seconds
+[2022-02-17 05:27:21,477] {jobs.py:398} INFO - Started process (PID=23745) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:27:21,478] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:27:21,478] {logging_mixin.py:95} INFO - [2022-02-17 05:27:21,478] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:27:21,479] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:27:21,479] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.003 seconds
+[2022-02-17 05:27:31,835] {jobs.py:398} INFO - Started process (PID=23859) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:27:31,836] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:27:31,837] {logging_mixin.py:95} INFO - [2022-02-17 05:27:31,837] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:27:31,837] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:27:31,837] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.002 seconds
+[2022-02-17 05:27:39,251] {jobs.py:398} INFO - Started process (PID=23951) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:27:39,253] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:27:39,253] {logging_mixin.py:95} INFO - [2022-02-17 05:27:39,253] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:27:39,254] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:27:39,254] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.003 seconds
+[2022-02-17 05:27:41,145] {jobs.py:398} INFO - Started process (PID=23971) to work on /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:27:41,147] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/my_email.py for tasks to queue
+[2022-02-17 05:27:41,147] {logging_mixin.py:95} INFO - [2022-02-17 05:27:41,147] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:27:41,147] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/my_email.py
+[2022-02-17 05:27:41,148] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/my_email.py took 0.002 seconds

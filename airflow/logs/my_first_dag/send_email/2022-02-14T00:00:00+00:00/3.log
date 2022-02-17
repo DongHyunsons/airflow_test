@@ -1,0 +1,55 @@
+[2022-02-15 07:30:56,892] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: my_first_dag.send_email 2022-02-14T00:00:00+00:00 [queued]>
+[2022-02-15 07:30:56,896] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: my_first_dag.send_email 2022-02-14T00:00:00+00:00 [queued]>
+[2022-02-15 07:30:56,897] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-15 07:30:56,897] {__init__.py:1354} INFO - Starting attempt 3 of 3
+[2022-02-15 07:30:56,897] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-15 07:30:56,906] {__init__.py:1374} INFO - Executing <Task(EmailOperator): send_email> on 2022-02-14T00:00:00+00:00
+[2022-02-15 07:30:56,906] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'my_first_dag', 'send_email', '2022-02-14T00:00:00+00:00', '--job_id', '10', '--raw', '-sd', 'DAGS_FOLDER/my_first.py', '--cfg_path', '/tmp/tmpt64clwci']
+[2022-02-15 07:30:57,281] {base_task_runner.py:101} INFO - Job 10: Subtask send_email [2022-02-15 07:30:57,280] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2022-02-15 07:30:57,439] {base_task_runner.py:101} INFO - Job 10: Subtask send_email [2022-02-15 07:30:57,438] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_first.py
+[2022-02-15 07:30:57,448] {base_task_runner.py:101} INFO - Job 10: Subtask send_email [2022-02-15 07:30:57,448] {cli.py:517} INFO - Running <TaskInstance: my_first_dag.send_email 2022-02-14T00:00:00+00:00 [running]> on host 4c5aeb1c47d1
+[2022-02-15 07:30:57,458] {logging_mixin.py:95} INFO - [2022-02-15 07:30:57,458] {configuration.py:287} WARNING - section/key [smtp/smtp_password] not found in config
+[2022-02-15 07:30:58,305] {logging_mixin.py:95} INFO - [2022-02-15 07:30:58,305] {email.py:126} INFO - Sent an alert email to ['sondonghyun7@gmail.com']
+[2022-02-15 07:30:59,128] {__init__.py:1580} ERROR - (530, b'5.7.0 Authentication Required. Learn more at\n5.7.0  https://support.google.com/mail/?p=WantAuthError rj11sm2050785pjb.41 - gsmtp', 'airflow@example.com')
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/opt/conda/lib/python3.7/site-packages/airflow/operators/email_operator.py", line 78, in execute
+    mime_subtype=self.mime_subtype, mime_charset=self.mime_charset)
+  File "/opt/conda/lib/python3.7/site-packages/airflow/utils/email.py", line 55, in send_email
+    mime_subtype=mime_subtype, mime_charset=mime_charset, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/airflow/utils/email.py", line 101, in send_email_smtp
+    send_MIME_email(smtp_mail_from, recipients, msg, dryrun)
+  File "/opt/conda/lib/python3.7/site-packages/airflow/utils/email.py", line 127, in send_MIME_email
+    s.sendmail(e_from, e_to, mime_msg.as_string())
+  File "/opt/conda/lib/python3.7/smtplib.py", line 872, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (530, b'5.7.0 Authentication Required. Learn more at\n5.7.0  https://support.google.com/mail/?p=WantAuthError rj11sm2050785pjb.41 - gsmtp', 'airflow@example.com')
+[2022-02-15 07:30:59,129] {__init__.py:1611} INFO - Marking task as FAILED.
+[2022-02-15 07:30:59,141] {base_task_runner.py:101} INFO - Job 10: Subtask send_email Traceback (most recent call last):
+[2022-02-15 07:30:59,141] {base_task_runner.py:101} INFO - Job 10: Subtask send_email   File "/opt/conda/bin/airflow", line 32, in <module>
+[2022-02-15 07:30:59,141] {base_task_runner.py:101} INFO - Job 10: Subtask send_email     args.func(args)
+[2022-02-15 07:30:59,141] {base_task_runner.py:101} INFO - Job 10: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/utils/cli.py", line 74, in wrapper
+[2022-02-15 07:30:59,141] {base_task_runner.py:101} INFO - Job 10: Subtask send_email     return f(*args, **kwargs)
+[2022-02-15 07:30:59,141] {base_task_runner.py:101} INFO - Job 10: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/bin/cli.py", line 523, in run
+[2022-02-15 07:30:59,141] {base_task_runner.py:101} INFO - Job 10: Subtask send_email     _run(args, dag, ti)
+[2022-02-15 07:30:59,141] {base_task_runner.py:101} INFO - Job 10: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/bin/cli.py", line 442, in _run
+[2022-02-15 07:30:59,141] {base_task_runner.py:101} INFO - Job 10: Subtask send_email     pool=args.pool,
+[2022-02-15 07:30:59,141] {base_task_runner.py:101} INFO - Job 10: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/utils/db.py", line 73, in wrapper
+[2022-02-15 07:30:59,141] {base_task_runner.py:101} INFO - Job 10: Subtask send_email     return func(*args, **kwargs)
+[2022-02-15 07:30:59,141] {base_task_runner.py:101} INFO - Job 10: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+[2022-02-15 07:30:59,141] {base_task_runner.py:101} INFO - Job 10: Subtask send_email     result = task_copy.execute(context=context)
+[2022-02-15 07:30:59,141] {base_task_runner.py:101} INFO - Job 10: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/operators/email_operator.py", line 78, in execute
+[2022-02-15 07:30:59,141] {base_task_runner.py:101} INFO - Job 10: Subtask send_email     mime_subtype=self.mime_subtype, mime_charset=self.mime_charset)
+[2022-02-15 07:30:59,141] {base_task_runner.py:101} INFO - Job 10: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/utils/email.py", line 55, in send_email
+[2022-02-15 07:30:59,141] {base_task_runner.py:101} INFO - Job 10: Subtask send_email     mime_subtype=mime_subtype, mime_charset=mime_charset, **kwargs)
+[2022-02-15 07:30:59,141] {base_task_runner.py:101} INFO - Job 10: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/utils/email.py", line 101, in send_email_smtp
+[2022-02-15 07:30:59,141] {base_task_runner.py:101} INFO - Job 10: Subtask send_email     send_MIME_email(smtp_mail_from, recipients, msg, dryrun)
+[2022-02-15 07:30:59,141] {base_task_runner.py:101} INFO - Job 10: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/utils/email.py", line 127, in send_MIME_email
+[2022-02-15 07:30:59,141] {base_task_runner.py:101} INFO - Job 10: Subtask send_email     s.sendmail(e_from, e_to, mime_msg.as_string())
+[2022-02-15 07:30:59,142] {base_task_runner.py:101} INFO - Job 10: Subtask send_email   File "/opt/conda/lib/python3.7/smtplib.py", line 872, in sendmail
+[2022-02-15 07:30:59,142] {base_task_runner.py:101} INFO - Job 10: Subtask send_email     raise SMTPSenderRefused(code, resp, from_addr)
+[2022-02-15 07:30:59,142] {base_task_runner.py:101} INFO - Job 10: Subtask send_email smtplib.SMTPSenderRefused: (530, b'5.7.0 Authentication Required. Learn more at\n5.7.0  https://support.google.com/mail/?p=WantAuthError rj11sm2050785pjb.41 - gsmtp', 'airflow@example.com')
+[2022-02-15 07:31:01,898] {logging_mixin.py:95} INFO - [2022-02-15 07:31:01,897] {jobs.py:2562} INFO - Task exited with return code 1

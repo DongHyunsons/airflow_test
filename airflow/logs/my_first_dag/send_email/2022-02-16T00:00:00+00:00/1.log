@@ -1,0 +1,14 @@
+[2022-02-17 00:00:07,531] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: my_first_dag.send_email 2022-02-16T00:00:00+00:00 [queued]>
+[2022-02-17 00:00:07,534] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: my_first_dag.send_email 2022-02-16T00:00:00+00:00 [queued]>
+[2022-02-17 00:00:07,534] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-17 00:00:07,534] {__init__.py:1354} INFO - Starting attempt 1 of 1
+[2022-02-17 00:00:07,534] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-17 00:00:07,544] {__init__.py:1374} INFO - Executing <Task(EmailOperator): send_email> on 2022-02-16T00:00:00+00:00
+[2022-02-17 00:00:07,545] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'my_first_dag', 'send_email', '2022-02-16T00:00:00+00:00', '--job_id', '96', '--raw', '-sd', 'DAGS_FOLDER/my_first.py', '--cfg_path', '/tmp/tmput44jm3x']
+[2022-02-17 00:00:07,944] {base_task_runner.py:101} INFO - Job 96: Subtask send_email [2022-02-17 00:00:07,943] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2022-02-17 00:00:08,110] {base_task_runner.py:101} INFO - Job 96: Subtask send_email [2022-02-17 00:00:08,109] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_first.py
+[2022-02-17 00:00:08,120] {base_task_runner.py:101} INFO - Job 96: Subtask send_email [2022-02-17 00:00:08,120] {cli.py:517} INFO - Running <TaskInstance: my_first_dag.send_email 2022-02-16T00:00:00+00:00 [running]> on host 4c5aeb1c47d1
+[2022-02-17 00:00:08,356] {logging_mixin.py:95} INFO - [2022-02-17 00:00:08,356] {email.py:126} INFO - Sent an alert email to ['sondonghyun7@hyundai.com']
+[2022-02-17 00:00:12,530] {logging_mixin.py:95} INFO - [2022-02-17 00:00:12,529] {jobs.py:2562} INFO - Task exited with return code 0

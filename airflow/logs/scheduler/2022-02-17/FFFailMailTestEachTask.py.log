@@ -1,0 +1,786 @@
+[2022-02-17 06:16:58,339] {jobs.py:398} INFO - Started process (PID=344) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:16:58,341] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:16:58,341] {logging_mixin.py:95} INFO - [2022-02-17 06:16:58,341] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:16:58,345] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:16:58,359] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.020 seconds
+[2022-02-17 06:17:44,389] {jobs.py:398} INFO - Started process (PID=646) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:17:44,392] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:17:44,392] {logging_mixin.py:95} INFO - [2022-02-17 06:17:44,392] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:17:44,392] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:17:44,392] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.003 seconds
+[2022-02-17 06:18:30,442] {jobs.py:398} INFO - Started process (PID=842) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:18:30,444] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:18:30,444] {logging_mixin.py:95} INFO - [2022-02-17 06:18:30,444] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:18:30,445] {jobs.py:1725} WARNING - No viable dags retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:18:30,445] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.003 seconds
+[2022-02-17 06:19:16,489] {jobs.py:398} INFO - Started process (PID=1140) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:19:16,491] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:19:16,491] {logging_mixin.py:95} INFO - [2022-02-17 06:19:16,491] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:19:16,494] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:19:16,510] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.021 seconds
+[2022-02-17 06:19:27,911] {jobs.py:398} INFO - Started process (PID=1210) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:19:27,912] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:19:27,912] {logging_mixin.py:95} INFO - [2022-02-17 06:19:27,912] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:19:27,916] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:19:27,932] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.021 seconds
+[2022-02-17 06:20:02,539] {jobs.py:398} INFO - Started process (PID=1394) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:20:02,541] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:20:02,541] {logging_mixin.py:95} INFO - [2022-02-17 06:20:02,541] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:20:02,545] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:20:02,565] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:20:02,595] {jobs.py:1450} INFO - Created <DagRun FfailMailTestEachTask_dag @ 2022-02-16 00:00:00+00:00: scheduled__2022-02-16T00:00:00+00:00, externally triggered: False>
+[2022-02-17 06:20:02,597] {jobs.py:921} INFO - Examining DAG run <DagRun FfailMailTestEachTask_dag @ 2022-02-16 00:00:00+00:00: scheduled__2022-02-16T00:00:00+00:00, externally triggered: False>
+[2022-02-17 06:20:02,622] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:20:02,623] {jobs.py:1787} INFO - Creating / updating <TaskInstance: FfailMailTestEachTask_dag.task1 2022-02-16 00:00:00+00:00 [scheduled]> in ORM
+[2022-02-17 06:20:02,633] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.094 seconds
+[2022-02-17 06:20:13,962] {jobs.py:398} INFO - Started process (PID=1480) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:20:13,963] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:20:13,964] {logging_mixin.py:95} INFO - [2022-02-17 06:20:13,964] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:20:13,968] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:20:13,988] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:20:13,998] {jobs.py:921} INFO - Examining DAG run <DagRun FfailMailTestEachTask_dag @ 2022-02-16 00:00:00+00:00: scheduled__2022-02-16T00:00:00+00:00, externally triggered: False>
+[2022-02-17 06:20:14,022] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:20:14,024] {jobs.py:1787} INFO - Creating / updating <TaskInstance: FfailMailTestEachTask_dag.task2 2022-02-16 00:00:00+00:00 [scheduled]> in ORM
+[2022-02-17 06:20:14,034] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.072 seconds
+[2022-02-17 06:20:41,585] {jobs.py:398} INFO - Started process (PID=1659) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:20:41,587] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:20:41,587] {logging_mixin.py:95} INFO - [2022-02-17 06:20:41,587] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:20:41,592] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:20:41,610] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:20:41,619] {jobs.py:921} INFO - Examining DAG run <DagRun FfailMailTestEachTask_dag @ 2022-02-16 00:00:00+00:00: scheduled__2022-02-16T00:00:00+00:00, externally triggered: False>
+[2022-02-17 06:20:41,638] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:20:41,640] {jobs.py:1787} INFO - Creating / updating <TaskInstance: FfailMailTestEachTask_dag.task3 2022-02-16 00:00:00+00:00 [scheduled]> in ORM
+[2022-02-17 06:20:41,642] {jobs.py:1787} INFO - Creating / updating <TaskInstance: FfailMailTestEachTask_dag.task4 2022-02-16 00:00:00+00:00 [scheduled]> in ORM
+[2022-02-17 06:20:41,651] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.066 seconds
+[2022-02-17 06:20:53,399] {jobs.py:398} INFO - Started process (PID=1741) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:20:53,400] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:20:53,401] {logging_mixin.py:95} INFO - [2022-02-17 06:20:53,401] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:20:53,405] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:20:53,426] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:20:53,434] {jobs.py:921} INFO - Examining DAG run <DagRun FfailMailTestEachTask_dag @ 2022-02-16 00:00:00+00:00: scheduled__2022-02-16T00:00:00+00:00, externally triggered: False>
+[2022-02-17 06:20:53,450] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:20:53,451] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.052 seconds
+[2022-02-17 06:21:04,821] {jobs.py:398} INFO - Started process (PID=1774) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:21:04,823] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:21:04,823] {logging_mixin.py:95} INFO - [2022-02-17 06:21:04,823] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:21:04,827] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:21:04,852] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:21:04,860] {jobs.py:921} INFO - Examining DAG run <DagRun FfailMailTestEachTask_dag @ 2022-02-16 00:00:00+00:00: scheduled__2022-02-16T00:00:00+00:00, externally triggered: False>
+[2022-02-17 06:21:04,874] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:21:04,876] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.055 seconds
+[2022-02-17 06:22:19,463] {jobs.py:398} INFO - Started process (PID=1925) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:22:19,464] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:22:19,465] {logging_mixin.py:95} INFO - [2022-02-17 06:22:19,465] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:22:19,468] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:22:19,493] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:22:19,500] {jobs.py:921} INFO - Examining DAG run <DagRun FfailMailTestEachTask_dag @ 2022-02-16 00:00:00+00:00: scheduled__2022-02-16T00:00:00+00:00, externally triggered: False>
+[2022-02-17 06:22:19,517] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:22:19,519] {jobs.py:1787} INFO - Creating / updating <TaskInstance: FfailMailTestEachTask_dag.task4 2022-02-16 00:00:00+00:00 [scheduled]> in ORM
+[2022-02-17 06:22:19,528] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.065 seconds
+[2022-02-17 06:23:10,354] {jobs.py:398} INFO - Started process (PID=2015) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:23:10,355] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:23:10,356] {logging_mixin.py:95} INFO - [2022-02-17 06:23:10,356] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:23:10,359] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:23:10,383] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:23:10,390] {jobs.py:921} INFO - Examining DAG run <DagRun FfailMailTestEachTask_dag @ 2022-02-16 00:00:00+00:00: scheduled__2022-02-16T00:00:00+00:00, externally triggered: False>
+[2022-02-17 06:23:10,405] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:23:10,407] {jobs.py:1787} INFO - Creating / updating <TaskInstance: FfailMailTestEachTask_dag.task5 2022-02-16 00:00:00+00:00 [scheduled]> in ORM
+[2022-02-17 06:23:10,418] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.064 seconds
+[2022-02-17 06:24:01,227] {jobs.py:398} INFO - Started process (PID=2103) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:24:01,229] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:24:01,229] {logging_mixin.py:95} INFO - [2022-02-17 06:24:01,229] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:24:01,233] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:24:01,252] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:24:01,259] {jobs.py:921} INFO - Examining DAG run <DagRun FfailMailTestEachTask_dag @ 2022-02-16 00:00:00+00:00: scheduled__2022-02-16T00:00:00+00:00, externally triggered: False>
+[2022-02-17 06:24:01,273] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:24:01,275] {jobs.py:1787} INFO - Creating / updating <TaskInstance: FfailMailTestEachTask_dag.task5 2022-02-16 00:00:00+00:00 [scheduled]> in ORM
+[2022-02-17 06:24:01,284] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.057 seconds
+[2022-02-17 06:24:52,084] {jobs.py:398} INFO - Started process (PID=2203) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:24:52,086] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:24:52,086] {logging_mixin.py:95} INFO - [2022-02-17 06:24:52,086] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:24:52,090] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:24:52,108] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:24:52,115] {jobs.py:921} INFO - Examining DAG run <DagRun FfailMailTestEachTask_dag @ 2022-02-16 00:00:00+00:00: scheduled__2022-02-16T00:00:00+00:00, externally triggered: False>
+[2022-02-17 06:24:52,135] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:24:52,137] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.053 seconds
+[2022-02-17 06:25:38,131] {jobs.py:398} INFO - Started process (PID=2263) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:25:38,135] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:25:38,135] {logging_mixin.py:95} INFO - [2022-02-17 06:25:38,135] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:25:38,139] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:25:38,170] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:25:38,177] {jobs.py:921} INFO - Examining DAG run <DagRun FfailMailTestEachTask_dag @ 2022-02-16 00:00:00+00:00: scheduled__2022-02-16T00:00:00+00:00, externally triggered: False>
+[2022-02-17 06:25:38,182] {logging_mixin.py:95} INFO - [2022-02-17 06:25:38,182] {__init__.py:4846} INFO - Marking run <DagRun FfailMailTestEachTask_dag @ 2022-02-16 00:00:00+00:00: scheduled__2022-02-16T00:00:00+00:00, externally triggered: False> failed
+[2022-02-17 06:25:38,189] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:25:38,191] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.060 seconds
+[2022-02-17 06:26:24,183] {jobs.py:398} INFO - Started process (PID=2321) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:26:24,184] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:26:24,185] {logging_mixin.py:95} INFO - [2022-02-17 06:26:24,185] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:26:24,189] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:26:24,215] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:26:24,224] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:26:24,225] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.043 seconds
+[2022-02-17 06:27:10,236] {jobs.py:398} INFO - Started process (PID=2391) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:27:10,237] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:27:10,237] {logging_mixin.py:95} INFO - [2022-02-17 06:27:10,237] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:27:10,241] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:27:10,268] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:27:10,275] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:27:10,277] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.041 seconds
+[2022-02-17 06:27:56,287] {jobs.py:398} INFO - Started process (PID=2449) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:27:56,288] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:27:56,289] {logging_mixin.py:95} INFO - [2022-02-17 06:27:56,288] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:27:56,292] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:27:56,320] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:27:56,327] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:27:56,329] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.043 seconds
+[2022-02-17 06:28:42,344] {jobs.py:398} INFO - Started process (PID=2507) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:28:42,345] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:28:42,345] {logging_mixin.py:95} INFO - [2022-02-17 06:28:42,345] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:28:42,349] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:28:42,366] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:28:42,374] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:28:42,375] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.032 seconds
+[2022-02-17 06:29:28,392] {jobs.py:398} INFO - Started process (PID=2577) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:29:28,394] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:29:28,394] {logging_mixin.py:95} INFO - [2022-02-17 06:29:28,394] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:29:28,398] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:29:28,419] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:29:28,427] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:29:28,429] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.037 seconds
+[2022-02-17 06:30:14,444] {jobs.py:398} INFO - Started process (PID=2635) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:30:14,446] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:30:14,446] {logging_mixin.py:95} INFO - [2022-02-17 06:30:14,446] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:30:14,451] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:30:14,481] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:30:14,488] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:30:14,490] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.046 seconds
+[2022-02-17 06:31:00,495] {jobs.py:398} INFO - Started process (PID=2705) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:31:00,497] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:31:00,497] {logging_mixin.py:95} INFO - [2022-02-17 06:31:00,497] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:31:00,502] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:31:00,522] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:31:00,529] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:31:00,531] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.036 seconds
+[2022-02-17 06:31:46,547] {jobs.py:398} INFO - Started process (PID=2763) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:31:46,549] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:31:46,549] {logging_mixin.py:95} INFO - [2022-02-17 06:31:46,549] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:31:46,553] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:31:46,573] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:31:46,581] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:31:46,583] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.036 seconds
+[2022-02-17 06:32:32,600] {jobs.py:398} INFO - Started process (PID=2834) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:32:32,602] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:32:32,602] {logging_mixin.py:95} INFO - [2022-02-17 06:32:32,602] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:32:32,606] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:32:32,630] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:32:32,638] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:32:32,639] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.039 seconds
+[2022-02-17 06:33:18,648] {jobs.py:398} INFO - Started process (PID=2894) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:33:18,650] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:33:18,650] {logging_mixin.py:95} INFO - [2022-02-17 06:33:18,650] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:33:18,654] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:33:18,674] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:33:18,682] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:33:18,685] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.037 seconds
+[2022-02-17 06:34:04,699] {jobs.py:398} INFO - Started process (PID=2964) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:34:04,701] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:34:04,701] {logging_mixin.py:95} INFO - [2022-02-17 06:34:04,701] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:34:04,706] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:34:04,724] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:34:04,732] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:34:04,734] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.034 seconds
+[2022-02-17 06:34:50,755] {jobs.py:398} INFO - Started process (PID=3022) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:34:50,756] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:34:50,757] {logging_mixin.py:95} INFO - [2022-02-17 06:34:50,757] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:34:50,760] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:34:50,778] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:34:50,785] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:34:50,786] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.032 seconds
+[2022-02-17 06:35:36,803] {jobs.py:398} INFO - Started process (PID=3091) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:35:36,804] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:35:36,805] {logging_mixin.py:95} INFO - [2022-02-17 06:35:36,805] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:35:36,809] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:35:36,834] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:35:36,842] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:35:36,844] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.041 seconds
+[2022-02-17 06:36:22,854] {jobs.py:398} INFO - Started process (PID=3354) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:36:22,856] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:36:22,856] {logging_mixin.py:95} INFO - [2022-02-17 06:36:22,856] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:36:22,860] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:36:22,885] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:36:22,894] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:36:22,896] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.042 seconds
+[2022-02-17 06:37:08,899] {jobs.py:398} INFO - Started process (PID=3400) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:37:08,901] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:37:08,902] {logging_mixin.py:95} INFO - [2022-02-17 06:37:08,902] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:37:08,906] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:37:08,931] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:37:08,939] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:37:08,941] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.041 seconds
+[2022-02-17 06:37:54,952] {jobs.py:398} INFO - Started process (PID=3458) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:37:54,953] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:37:54,953] {logging_mixin.py:95} INFO - [2022-02-17 06:37:54,953] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:37:54,957] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:37:54,982] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:37:54,989] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:37:54,991] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.039 seconds
+[2022-02-17 06:38:41,001] {jobs.py:398} INFO - Started process (PID=3504) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:38:41,003] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:38:41,003] {logging_mixin.py:95} INFO - [2022-02-17 06:38:41,003] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:38:41,007] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:38:41,027] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:38:41,035] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:38:41,036] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.035 seconds
+[2022-02-17 06:39:27,053] {jobs.py:398} INFO - Started process (PID=4093) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:39:27,054] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:39:27,054] {logging_mixin.py:95} INFO - [2022-02-17 06:39:27,054] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:39:27,059] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:39:27,077] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:39:27,085] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:39:27,086] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.034 seconds
+[2022-02-17 06:40:13,106] {jobs.py:398} INFO - Started process (PID=4139) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:40:13,108] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:40:13,108] {logging_mixin.py:95} INFO - [2022-02-17 06:40:13,108] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:40:13,112] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:40:13,130] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:40:13,137] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:40:13,139] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.033 seconds
+[2022-02-17 06:40:59,156] {jobs.py:398} INFO - Started process (PID=4185) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:40:59,158] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:40:59,158] {logging_mixin.py:95} INFO - [2022-02-17 06:40:59,158] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:40:59,162] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:40:59,187] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:40:59,194] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:40:59,197] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.041 seconds
+[2022-02-17 06:41:45,209] {jobs.py:398} INFO - Started process (PID=4231) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:41:45,211] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:41:45,211] {logging_mixin.py:95} INFO - [2022-02-17 06:41:45,211] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:41:45,215] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:41:45,242] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:41:45,250] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:41:45,252] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.043 seconds
+[2022-02-17 06:42:31,261] {jobs.py:398} INFO - Started process (PID=4277) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:42:31,263] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:42:31,263] {logging_mixin.py:95} INFO - [2022-02-17 06:42:31,263] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:42:31,267] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:42:31,293] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:42:31,302] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:42:31,304] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.043 seconds
+[2022-02-17 06:43:17,313] {jobs.py:398} INFO - Started process (PID=4323) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:43:17,315] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:43:17,315] {logging_mixin.py:95} INFO - [2022-02-17 06:43:17,315] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:43:17,319] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:43:17,345] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:43:17,353] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:43:17,355] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.042 seconds
+[2022-02-17 06:44:03,368] {jobs.py:398} INFO - Started process (PID=4373) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:44:03,369] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:44:03,370] {logging_mixin.py:95} INFO - [2022-02-17 06:44:03,369] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:44:03,374] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:44:03,392] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:44:03,399] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:44:03,401] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.033 seconds
+[2022-02-17 06:44:49,418] {jobs.py:398} INFO - Started process (PID=4419) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:44:49,420] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:44:49,420] {logging_mixin.py:95} INFO - [2022-02-17 06:44:49,420] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:44:49,424] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:44:49,445] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:44:49,452] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:44:49,454] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.036 seconds
+[2022-02-17 06:45:35,472] {jobs.py:398} INFO - Started process (PID=4465) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:45:35,475] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:45:35,476] {logging_mixin.py:95} INFO - [2022-02-17 06:45:35,475] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:45:35,482] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:45:35,512] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:45:35,536] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:45:35,539] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.068 seconds
+[2022-02-17 06:46:21,521] {jobs.py:398} INFO - Started process (PID=4511) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:46:21,522] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:46:21,522] {logging_mixin.py:95} INFO - [2022-02-17 06:46:21,522] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:46:21,527] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:46:21,552] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:46:21,560] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:46:21,562] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.041 seconds
+[2022-02-17 06:47:07,574] {jobs.py:398} INFO - Started process (PID=4562) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:47:07,576] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:47:07,577] {logging_mixin.py:95} INFO - [2022-02-17 06:47:07,576] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:47:07,582] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:47:07,608] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:47:07,616] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:47:07,619] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.044 seconds
+[2022-02-17 06:47:53,629] {jobs.py:398} INFO - Started process (PID=4609) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:47:53,630] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:47:53,631] {logging_mixin.py:95} INFO - [2022-02-17 06:47:53,630] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:47:53,634] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:47:53,659] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:47:53,667] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:47:53,669] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.040 seconds
+[2022-02-17 06:48:39,676] {jobs.py:398} INFO - Started process (PID=4655) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:48:39,678] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:48:39,678] {logging_mixin.py:95} INFO - [2022-02-17 06:48:39,678] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:48:39,682] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:48:39,709] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:48:39,717] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:48:39,719] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.043 seconds
+[2022-02-17 06:49:25,729] {jobs.py:398} INFO - Started process (PID=4701) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:49:25,732] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:49:25,732] {logging_mixin.py:95} INFO - [2022-02-17 06:49:25,732] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:49:25,736] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:49:25,761] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:49:25,769] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:49:25,770] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.041 seconds
+[2022-02-17 06:50:11,781] {jobs.py:398} INFO - Started process (PID=4747) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:50:11,782] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:50:11,782] {logging_mixin.py:95} INFO - [2022-02-17 06:50:11,782] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:50:11,786] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:50:11,805] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:50:11,813] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:50:11,815] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.034 seconds
+[2022-02-17 06:50:57,832] {jobs.py:398} INFO - Started process (PID=4793) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:50:57,834] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:50:57,834] {logging_mixin.py:95} INFO - [2022-02-17 06:50:57,834] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:50:57,839] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:50:57,857] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:50:57,864] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:50:57,866] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.033 seconds
+[2022-02-17 06:51:43,888] {jobs.py:398} INFO - Started process (PID=4839) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:51:43,889] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:51:43,890] {logging_mixin.py:95} INFO - [2022-02-17 06:51:43,890] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:51:43,894] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:51:43,911] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:51:43,919] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:51:43,921] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.033 seconds
+[2022-02-17 06:52:29,936] {jobs.py:398} INFO - Started process (PID=4885) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:52:29,937] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:52:29,938] {logging_mixin.py:95} INFO - [2022-02-17 06:52:29,938] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:52:29,942] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:52:29,966] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:52:29,973] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:52:29,975] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.039 seconds
+[2022-02-17 06:53:15,988] {jobs.py:398} INFO - Started process (PID=4931) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:53:15,989] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:53:15,989] {logging_mixin.py:95} INFO - [2022-02-17 06:53:15,989] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:53:15,993] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:53:16,019] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:53:16,026] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:53:16,028] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.041 seconds
+[2022-02-17 06:54:02,040] {jobs.py:398} INFO - Started process (PID=4977) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:54:02,043] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:54:02,043] {logging_mixin.py:95} INFO - [2022-02-17 06:54:02,043] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:54:02,047] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:54:02,065] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:54:02,072] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:54:02,074] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.034 seconds
+[2022-02-17 06:54:48,092] {jobs.py:398} INFO - Started process (PID=5023) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:54:48,094] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:54:48,094] {logging_mixin.py:95} INFO - [2022-02-17 06:54:48,094] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:54:48,099] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:54:48,117] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:54:48,124] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:54:48,126] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.034 seconds
+[2022-02-17 06:55:34,148] {jobs.py:398} INFO - Started process (PID=5069) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:55:34,149] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:55:34,149] {logging_mixin.py:95} INFO - [2022-02-17 06:55:34,149] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:55:34,153] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:55:34,172] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:55:34,179] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:55:34,181] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.033 seconds
+[2022-02-17 06:56:20,195] {jobs.py:398} INFO - Started process (PID=5124) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:56:20,196] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:56:20,197] {logging_mixin.py:95} INFO - [2022-02-17 06:56:20,197] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:56:20,200] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:56:20,228] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:56:20,235] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:56:20,237] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.042 seconds
+[2022-02-17 06:57:06,247] {jobs.py:398} INFO - Started process (PID=5176) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:57:06,249] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:57:06,249] {logging_mixin.py:95} INFO - [2022-02-17 06:57:06,249] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:57:06,253] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:57:06,278] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:57:06,286] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:57:06,288] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.041 seconds
+[2022-02-17 06:57:52,300] {jobs.py:398} INFO - Started process (PID=5222) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:57:52,302] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:57:52,302] {logging_mixin.py:95} INFO - [2022-02-17 06:57:52,302] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:57:52,305] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:57:52,326] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:57:52,333] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:57:52,335] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.035 seconds
+[2022-02-17 06:58:38,353] {jobs.py:398} INFO - Started process (PID=5269) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:58:38,354] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:58:38,354] {logging_mixin.py:95} INFO - [2022-02-17 06:58:38,354] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:58:38,358] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:58:38,376] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:58:38,383] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:58:38,385] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.032 seconds
+[2022-02-17 06:59:24,410] {jobs.py:398} INFO - Started process (PID=5322) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:59:24,412] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 06:59:24,412] {logging_mixin.py:95} INFO - [2022-02-17 06:59:24,412] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:59:24,416] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 06:59:24,444] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 06:59:24,452] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 06:59:24,454] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.044 seconds
+[2022-02-17 07:00:10,459] {jobs.py:398} INFO - Started process (PID=5374) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:00:10,460] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:00:10,461] {logging_mixin.py:95} INFO - [2022-02-17 07:00:10,461] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:00:10,465] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:00:10,490] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:00:10,497] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:00:10,499] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.040 seconds
+[2022-02-17 07:00:56,512] {jobs.py:398} INFO - Started process (PID=5423) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:00:56,514] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:00:56,514] {logging_mixin.py:95} INFO - [2022-02-17 07:00:56,514] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:00:56,518] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:00:56,536] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:00:56,543] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:00:56,545] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.033 seconds
+[2022-02-17 07:01:42,570] {jobs.py:398} INFO - Started process (PID=5469) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:01:42,572] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:01:42,572] {logging_mixin.py:95} INFO - [2022-02-17 07:01:42,572] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:01:42,576] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:01:42,599] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:01:42,608] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:01:42,610] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.040 seconds
+[2022-02-17 07:02:28,614] {jobs.py:398} INFO - Started process (PID=5515) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:02:28,616] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:02:28,616] {logging_mixin.py:95} INFO - [2022-02-17 07:02:28,616] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:02:28,621] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:02:28,645] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:02:28,653] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:02:28,655] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.040 seconds
+[2022-02-17 07:03:14,670] {jobs.py:398} INFO - Started process (PID=5565) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:03:14,671] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:03:14,671] {logging_mixin.py:95} INFO - [2022-02-17 07:03:14,671] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:03:14,675] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:03:14,693] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:03:14,700] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:03:14,702] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.032 seconds
+[2022-02-17 07:04:00,720] {jobs.py:398} INFO - Started process (PID=5611) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:04:00,722] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:04:00,722] {logging_mixin.py:95} INFO - [2022-02-17 07:04:00,722] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:04:00,726] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:04:00,752] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:04:00,759] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:04:00,761] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.041 seconds
+[2022-02-17 07:04:46,773] {jobs.py:398} INFO - Started process (PID=5657) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:04:46,775] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:04:46,775] {logging_mixin.py:95} INFO - [2022-02-17 07:04:46,775] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:04:46,779] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:04:46,798] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:04:46,805] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:04:46,807] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.034 seconds
+[2022-02-17 07:05:32,825] {jobs.py:398} INFO - Started process (PID=5703) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:05:32,827] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:05:32,827] {logging_mixin.py:95} INFO - [2022-02-17 07:05:32,827] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:05:32,830] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:05:32,854] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:05:32,861] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:05:32,863] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.038 seconds
+[2022-02-17 07:06:18,880] {jobs.py:398} INFO - Started process (PID=5749) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:06:18,881] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:06:18,881] {logging_mixin.py:95} INFO - [2022-02-17 07:06:18,881] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:06:18,886] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:06:18,906] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:06:18,913] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:06:18,915] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.036 seconds
+[2022-02-17 07:07:04,934] {jobs.py:398} INFO - Started process (PID=5795) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:07:04,936] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:07:04,936] {logging_mixin.py:95} INFO - [2022-02-17 07:07:04,936] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:07:04,940] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:07:04,958] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:07:04,966] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:07:04,968] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.034 seconds
+[2022-02-17 07:07:50,984] {jobs.py:398} INFO - Started process (PID=5841) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:07:50,986] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:07:50,986] {logging_mixin.py:95} INFO - [2022-02-17 07:07:50,986] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:07:50,990] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:07:51,008] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:07:51,015] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:07:51,017] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.033 seconds
+[2022-02-17 07:08:37,038] {jobs.py:398} INFO - Started process (PID=5887) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:08:37,040] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:08:37,040] {logging_mixin.py:95} INFO - [2022-02-17 07:08:37,040] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:08:37,043] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:08:37,063] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:08:37,070] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:08:37,072] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.034 seconds
+[2022-02-17 07:09:23,089] {jobs.py:398} INFO - Started process (PID=5933) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:09:23,091] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:09:23,091] {logging_mixin.py:95} INFO - [2022-02-17 07:09:23,091] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:09:23,095] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:09:23,119] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:09:23,126] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:09:23,127] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.039 seconds
+[2022-02-17 07:10:09,141] {jobs.py:398} INFO - Started process (PID=5979) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:10:09,142] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:10:09,143] {logging_mixin.py:95} INFO - [2022-02-17 07:10:09,142] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:10:09,146] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:10:09,170] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:10:09,177] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:10:09,179] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.038 seconds
+[2022-02-17 07:10:55,199] {jobs.py:398} INFO - Started process (PID=6025) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:10:55,200] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:10:55,200] {logging_mixin.py:95} INFO - [2022-02-17 07:10:55,200] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:10:55,205] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:10:55,222] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:10:55,229] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:10:55,231] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.032 seconds
+[2022-02-17 07:11:41,247] {jobs.py:398} INFO - Started process (PID=6071) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:11:41,248] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:11:41,248] {logging_mixin.py:95} INFO - [2022-02-17 07:11:41,248] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:11:41,252] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:11:41,276] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:11:41,283] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:11:41,286] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.040 seconds
+[2022-02-17 07:12:27,299] {jobs.py:398} INFO - Started process (PID=6117) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:12:27,301] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:12:27,301] {logging_mixin.py:95} INFO - [2022-02-17 07:12:27,301] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:12:27,305] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:12:27,324] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:12:27,332] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:12:27,334] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.035 seconds
+[2022-02-17 07:13:13,354] {jobs.py:398} INFO - Started process (PID=6163) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:13:13,356] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:13:13,356] {logging_mixin.py:95} INFO - [2022-02-17 07:13:13,356] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:13:13,360] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:13:13,384] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:13:13,392] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:13:13,394] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.040 seconds
+[2022-02-17 07:13:59,405] {jobs.py:398} INFO - Started process (PID=6209) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:13:59,407] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:13:59,407] {logging_mixin.py:95} INFO - [2022-02-17 07:13:59,407] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:13:59,411] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:13:59,439] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:13:59,446] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:13:59,448] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.043 seconds
+[2022-02-17 07:14:45,461] {jobs.py:398} INFO - Started process (PID=6255) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:14:45,463] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:14:45,463] {logging_mixin.py:95} INFO - [2022-02-17 07:14:45,463] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:14:45,467] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:14:45,491] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:14:45,498] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:14:45,500] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.038 seconds
+[2022-02-17 07:15:31,510] {jobs.py:398} INFO - Started process (PID=6301) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:15:31,511] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:15:31,511] {logging_mixin.py:95} INFO - [2022-02-17 07:15:31,511] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:15:31,515] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:15:31,533] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:15:31,540] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:15:31,542] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.032 seconds
+[2022-02-17 07:16:17,564] {jobs.py:398} INFO - Started process (PID=6347) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:16:17,566] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:16:17,566] {logging_mixin.py:95} INFO - [2022-02-17 07:16:17,566] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:16:17,570] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:16:17,593] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:16:17,600] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:16:17,601] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.037 seconds
+[2022-02-17 07:17:03,617] {jobs.py:398} INFO - Started process (PID=6393) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:17:03,619] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:17:03,620] {logging_mixin.py:95} INFO - [2022-02-17 07:17:03,620] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:17:03,623] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:17:03,649] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:17:03,656] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:17:03,658] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.040 seconds
+[2022-02-17 07:17:49,671] {jobs.py:398} INFO - Started process (PID=6439) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:17:49,672] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:17:49,672] {logging_mixin.py:95} INFO - [2022-02-17 07:17:49,672] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:17:49,676] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:17:49,694] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:17:49,702] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:17:49,704] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.033 seconds
+[2022-02-17 07:18:35,728] {jobs.py:398} INFO - Started process (PID=6485) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:18:35,729] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:18:35,730] {logging_mixin.py:95} INFO - [2022-02-17 07:18:35,730] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:18:35,733] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:18:35,757] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:18:35,763] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:18:35,765] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.037 seconds
+[2022-02-17 07:19:21,780] {jobs.py:398} INFO - Started process (PID=6531) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:19:21,782] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:19:21,782] {logging_mixin.py:95} INFO - [2022-02-17 07:19:21,782] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:19:21,786] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:19:21,805] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:19:21,812] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:19:21,814] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.033 seconds
+[2022-02-17 07:20:07,835] {jobs.py:398} INFO - Started process (PID=6577) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:20:07,838] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:20:07,838] {logging_mixin.py:95} INFO - [2022-02-17 07:20:07,838] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:20:07,841] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:20:07,860] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:20:07,867] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:20:07,869] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.034 seconds
+[2022-02-17 07:20:53,892] {jobs.py:398} INFO - Started process (PID=6623) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:20:53,894] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:20:53,894] {logging_mixin.py:95} INFO - [2022-02-17 07:20:53,894] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:20:53,898] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:20:53,924] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:20:53,931] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:20:53,933] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.041 seconds
+[2022-02-17 07:21:39,949] {jobs.py:398} INFO - Started process (PID=6669) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:21:39,950] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:21:39,950] {logging_mixin.py:95} INFO - [2022-02-17 07:21:39,950] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:21:39,954] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:21:39,979] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:21:39,986] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:21:39,988] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.039 seconds
+[2022-02-17 07:22:26,006] {jobs.py:398} INFO - Started process (PID=6715) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:22:26,007] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:22:26,007] {logging_mixin.py:95} INFO - [2022-02-17 07:22:26,007] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:22:26,011] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:22:26,029] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:22:26,036] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:22:26,037] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.032 seconds
+[2022-02-17 07:23:12,053] {jobs.py:398} INFO - Started process (PID=6761) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:23:12,055] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:23:12,055] {logging_mixin.py:95} INFO - [2022-02-17 07:23:12,055] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:23:12,059] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:23:12,078] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:23:12,084] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:23:12,087] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.033 seconds
+[2022-02-17 07:23:58,106] {jobs.py:398} INFO - Started process (PID=6807) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:23:58,108] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:23:58,108] {logging_mixin.py:95} INFO - [2022-02-17 07:23:58,108] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:23:58,111] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:23:58,136] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:23:58,144] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:23:58,145] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.040 seconds
+[2022-02-17 07:24:44,158] {jobs.py:398} INFO - Started process (PID=6853) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:24:44,159] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:24:44,160] {logging_mixin.py:95} INFO - [2022-02-17 07:24:44,160] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:24:44,164] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:24:44,189] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:24:44,197] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:24:44,199] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.041 seconds
+[2022-02-17 07:25:30,210] {jobs.py:398} INFO - Started process (PID=6899) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:25:30,212] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:25:30,212] {logging_mixin.py:95} INFO - [2022-02-17 07:25:30,212] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:25:30,216] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:25:30,242] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:25:30,249] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:25:30,250] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.040 seconds
+[2022-02-17 07:26:16,266] {jobs.py:398} INFO - Started process (PID=6950) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:26:16,267] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:26:16,267] {logging_mixin.py:95} INFO - [2022-02-17 07:26:16,267] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:26:16,272] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:26:16,298] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:26:16,306] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:26:16,308] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.043 seconds
+[2022-02-17 07:27:02,318] {jobs.py:398} INFO - Started process (PID=6996) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:27:02,319] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:27:02,320] {logging_mixin.py:95} INFO - [2022-02-17 07:27:02,320] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:27:02,323] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:27:02,349] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:27:02,357] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:27:02,358] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.040 seconds
+[2022-02-17 07:27:48,365] {jobs.py:398} INFO - Started process (PID=7042) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:27:48,366] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:27:48,367] {logging_mixin.py:95} INFO - [2022-02-17 07:27:48,367] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:27:48,370] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:27:48,389] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:27:48,396] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:27:48,398] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.034 seconds
+[2022-02-17 07:28:34,416] {jobs.py:398} INFO - Started process (PID=7096) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:28:34,418] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:28:34,418] {logging_mixin.py:95} INFO - [2022-02-17 07:28:34,418] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:28:34,422] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:28:34,447] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:28:34,455] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:28:34,457] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.041 seconds
+[2022-02-17 07:29:20,468] {jobs.py:398} INFO - Started process (PID=7149) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:29:20,470] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:29:20,470] {logging_mixin.py:95} INFO - [2022-02-17 07:29:20,470] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:29:20,475] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:29:20,502] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:29:20,510] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:29:20,511] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.044 seconds
+[2022-02-17 07:30:06,523] {jobs.py:398} INFO - Started process (PID=7200) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:30:06,525] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:30:06,525] {logging_mixin.py:95} INFO - [2022-02-17 07:30:06,525] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:30:06,529] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:30:06,547] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:30:06,554] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:30:06,556] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.033 seconds
+[2022-02-17 07:30:52,574] {jobs.py:398} INFO - Started process (PID=7250) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:30:52,576] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:30:52,576] {logging_mixin.py:95} INFO - [2022-02-17 07:30:52,576] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:30:52,580] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:30:52,599] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:30:52,607] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:30:52,609] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.035 seconds
+[2022-02-17 07:31:38,627] {jobs.py:398} INFO - Started process (PID=7309) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:31:38,630] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:31:38,630] {logging_mixin.py:95} INFO - [2022-02-17 07:31:38,630] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:31:38,633] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:31:38,662] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:31:38,670] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:31:38,672] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.045 seconds
+[2022-02-17 07:32:24,678] {jobs.py:398} INFO - Started process (PID=7361) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:32:24,680] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:32:24,680] {logging_mixin.py:95} INFO - [2022-02-17 07:32:24,680] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:32:24,683] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:32:24,709] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:32:24,716] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:32:24,717] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.040 seconds
+[2022-02-17 07:33:10,731] {jobs.py:398} INFO - Started process (PID=7407) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:33:10,733] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:33:10,733] {logging_mixin.py:95} INFO - [2022-02-17 07:33:10,733] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:33:10,738] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:33:10,760] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:33:10,768] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:33:10,770] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.039 seconds
+[2022-02-17 07:33:56,789] {jobs.py:398} INFO - Started process (PID=7457) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:33:56,791] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:33:56,791] {logging_mixin.py:95} INFO - [2022-02-17 07:33:56,791] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:33:56,795] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:33:56,813] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:33:56,820] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:33:56,822] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.033 seconds
+[2022-02-17 07:34:42,835] {jobs.py:398} INFO - Started process (PID=7512) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:34:42,837] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:34:42,837] {logging_mixin.py:95} INFO - [2022-02-17 07:34:42,837] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:34:42,841] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:34:42,867] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:34:42,875] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:34:42,878] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.042 seconds
+[2022-02-17 07:35:28,889] {jobs.py:398} INFO - Started process (PID=7558) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:35:28,891] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:35:28,892] {logging_mixin.py:95} INFO - [2022-02-17 07:35:28,892] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:35:28,896] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:35:28,922] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:35:28,930] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:35:28,932] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.042 seconds
+[2022-02-17 07:36:14,942] {jobs.py:398} INFO - Started process (PID=7604) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:36:14,945] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:36:14,945] {logging_mixin.py:95} INFO - [2022-02-17 07:36:14,945] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:36:14,950] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:36:14,978] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:36:14,986] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:36:14,988] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.046 seconds
+[2022-02-17 07:37:00,994] {jobs.py:398} INFO - Started process (PID=7650) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:37:00,995] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:37:00,996] {logging_mixin.py:95} INFO - [2022-02-17 07:37:00,996] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:37:01,000] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:37:01,019] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:37:01,027] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:37:01,028] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.035 seconds
+[2022-02-17 07:37:47,049] {jobs.py:398} INFO - Started process (PID=7700) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:37:47,051] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:37:47,051] {logging_mixin.py:95} INFO - [2022-02-17 07:37:47,051] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:37:47,055] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:37:47,075] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:37:47,083] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:37:47,085] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.036 seconds
+[2022-02-17 07:38:33,097] {jobs.py:398} INFO - Started process (PID=7750) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:38:33,099] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:38:33,099] {logging_mixin.py:95} INFO - [2022-02-17 07:38:33,099] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:38:33,103] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:38:33,128] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:38:33,136] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:38:33,138] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.040 seconds
+[2022-02-17 07:39:19,150] {jobs.py:398} INFO - Started process (PID=7804) to work on /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:39:19,153] {jobs.py:1711} INFO - Processing file /home/jovyan/airflow/dags/FFFailMailTestEachTask.py for tasks to queue
+[2022-02-17 07:39:19,153] {logging_mixin.py:95} INFO - [2022-02-17 07:39:19,153] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:39:19,157] {jobs.py:1723} INFO - DAG(s) dict_keys(['FfailMailTestEachTask_dag']) retrieved from /home/jovyan/airflow/dags/FFFailMailTestEachTask.py
+[2022-02-17 07:39:19,177] {jobs.py:1446} INFO - Processing FfailMailTestEachTask_dag
+[2022-02-17 07:39:19,184] {jobs.py:632} INFO - Skipping SLA check for <DAG: FfailMailTestEachTask_dag> because no tasks in DAG have SLAs
+[2022-02-17 07:39:19,186] {jobs.py:406} INFO - Processing /home/jovyan/airflow/dags/FFFailMailTestEachTask.py took 0.036 seconds

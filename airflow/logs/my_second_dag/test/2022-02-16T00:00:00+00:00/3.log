@@ -1,0 +1,50 @@
+[2022-02-17 05:03:53,777] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: my_second_dag.test 2022-02-16T00:00:00+00:00 [queued]>
+[2022-02-17 05:03:53,781] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: my_second_dag.test 2022-02-16T00:00:00+00:00 [queued]>
+[2022-02-17 05:03:53,781] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-17 05:03:53,781] {__init__.py:1354} INFO - Starting attempt 3 of 3
+[2022-02-17 05:03:53,781] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-17 05:03:53,790] {__init__.py:1374} INFO - Executing <Task(BashOperator): test> on 2022-02-16T00:00:00+00:00
+[2022-02-17 05:03:53,790] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'my_second_dag', 'test', '2022-02-16T00:00:00+00:00', '--job_id', '101', '--raw', '-sd', 'DAGS_FOLDER/my_second.py', '--cfg_path', '/tmp/tmp29v6cge7']
+[2022-02-17 05:03:54,161] {base_task_runner.py:101} INFO - Job 101: Subtask test [2022-02-17 05:03:54,161] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2022-02-17 05:03:54,320] {base_task_runner.py:101} INFO - Job 101: Subtask test [2022-02-17 05:03:54,319] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_second.py
+[2022-02-17 05:03:54,330] {base_task_runner.py:101} INFO - Job 101: Subtask test [2022-02-17 05:03:54,330] {cli.py:517} INFO - Running <TaskInstance: my_second_dag.test 2022-02-16T00:00:00+00:00 [running]> on host 4c5aeb1c47d1
+[2022-02-17 05:03:54,340] {bash_operator.py:81} INFO - Tmp dir root location: 
+ /tmp
+[2022-02-17 05:03:54,340] {bash_operator.py:90} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=my_second_dag
+AIRFLOW_CTX_TASK_ID=test
+AIRFLOW_CTX_EXECUTION_DATE=2022-02-16T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-02-16T00:00:00+00:00
+[2022-02-17 05:03:54,341] {bash_operator.py:104} INFO - Temporary script location: /tmp/airflowtmpvh8ji6sh/testnmb6fi0h
+[2022-02-17 05:03:54,341] {bash_operator.py:114} INFO - Running command: exit(1)
+[2022-02-17 05:03:54,344] {bash_operator.py:123} INFO - Output:
+[2022-02-17 05:03:54,345] {bash_operator.py:127} INFO - /tmp/airflowtmpvh8ji6sh/testnmb6fi0h: line 1: syntax error near unexpected token `1'
+[2022-02-17 05:03:54,345] {bash_operator.py:127} INFO - /tmp/airflowtmpvh8ji6sh/testnmb6fi0h: line 1: `exit(1)'
+[2022-02-17 05:03:54,345] {bash_operator.py:131} INFO - Command exited with return code 2
+[2022-02-17 05:03:54,347] {__init__.py:1580} ERROR - Bash command failed
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/opt/conda/lib/python3.7/site-packages/airflow/operators/bash_operator.py", line 135, in execute
+    raise AirflowException("Bash command failed")
+airflow.exceptions.AirflowException: Bash command failed
+[2022-02-17 05:03:54,348] {__init__.py:1611} INFO - Marking task as FAILED.
+[2022-02-17 05:03:54,360] {base_task_runner.py:101} INFO - Job 101: Subtask test Traceback (most recent call last):
+[2022-02-17 05:03:54,360] {base_task_runner.py:101} INFO - Job 101: Subtask test   File "/opt/conda/bin/airflow", line 32, in <module>
+[2022-02-17 05:03:54,360] {base_task_runner.py:101} INFO - Job 101: Subtask test     args.func(args)
+[2022-02-17 05:03:54,360] {base_task_runner.py:101} INFO - Job 101: Subtask test   File "/opt/conda/lib/python3.7/site-packages/airflow/utils/cli.py", line 74, in wrapper
+[2022-02-17 05:03:54,360] {base_task_runner.py:101} INFO - Job 101: Subtask test     return f(*args, **kwargs)
+[2022-02-17 05:03:54,360] {base_task_runner.py:101} INFO - Job 101: Subtask test   File "/opt/conda/lib/python3.7/site-packages/airflow/bin/cli.py", line 523, in run
+[2022-02-17 05:03:54,360] {base_task_runner.py:101} INFO - Job 101: Subtask test     _run(args, dag, ti)
+[2022-02-17 05:03:54,360] {base_task_runner.py:101} INFO - Job 101: Subtask test   File "/opt/conda/lib/python3.7/site-packages/airflow/bin/cli.py", line 442, in _run
+[2022-02-17 05:03:54,360] {base_task_runner.py:101} INFO - Job 101: Subtask test     pool=args.pool,
+[2022-02-17 05:03:54,360] {base_task_runner.py:101} INFO - Job 101: Subtask test   File "/opt/conda/lib/python3.7/site-packages/airflow/utils/db.py", line 73, in wrapper
+[2022-02-17 05:03:54,360] {base_task_runner.py:101} INFO - Job 101: Subtask test     return func(*args, **kwargs)
+[2022-02-17 05:03:54,360] {base_task_runner.py:101} INFO - Job 101: Subtask test   File "/opt/conda/lib/python3.7/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+[2022-02-17 05:03:54,360] {base_task_runner.py:101} INFO - Job 101: Subtask test     result = task_copy.execute(context=context)
+[2022-02-17 05:03:54,360] {base_task_runner.py:101} INFO - Job 101: Subtask test   File "/opt/conda/lib/python3.7/site-packages/airflow/operators/bash_operator.py", line 135, in execute
+[2022-02-17 05:03:54,360] {base_task_runner.py:101} INFO - Job 101: Subtask test     raise AirflowException("Bash command failed")
+[2022-02-17 05:03:54,360] {base_task_runner.py:101} INFO - Job 101: Subtask test airflow.exceptions.AirflowException: Bash command failed
+[2022-02-17 05:03:58,784] {logging_mixin.py:95} INFO - [2022-02-17 05:03:58,783] {jobs.py:2562} INFO - Task exited with return code 1

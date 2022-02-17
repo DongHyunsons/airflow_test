@@ -1,0 +1,14 @@
+[2022-02-15 09:24:06,823] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: my_first_dag.send_email 2022-02-14T00:00:00+00:00 [queued]>
+[2022-02-15 09:24:06,830] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: my_first_dag.send_email 2022-02-14T00:00:00+00:00 [queued]>
+[2022-02-15 09:24:06,830] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-15 09:24:06,830] {__init__.py:1354} INFO - Starting attempt 39 of 39
+[2022-02-15 09:24:06,830] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-15 09:24:06,841] {__init__.py:1374} INFO - Executing <Task(EmailOperator): send_email> on 2022-02-14T00:00:00+00:00
+[2022-02-15 09:24:06,841] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'my_first_dag', 'send_email', '2022-02-14T00:00:00+00:00', '--job_id', '80', '--raw', '-sd', 'DAGS_FOLDER/my_first.py', '--cfg_path', '/tmp/tmpnqaptccm']
+[2022-02-15 09:24:07,307] {base_task_runner.py:101} INFO - Job 80: Subtask send_email [2022-02-15 09:24:07,307] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2022-02-15 09:24:07,500] {base_task_runner.py:101} INFO - Job 80: Subtask send_email [2022-02-15 09:24:07,500] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_first.py
+[2022-02-15 09:24:07,512] {base_task_runner.py:101} INFO - Job 80: Subtask send_email [2022-02-15 09:24:07,511] {cli.py:517} INFO - Running <TaskInstance: my_first_dag.send_email 2022-02-14T00:00:00+00:00 [running]> on host 4c5aeb1c47d1
+[2022-02-15 09:24:07,709] {logging_mixin.py:95} INFO - [2022-02-15 09:24:07,708] {email.py:126} INFO - Sent an alert email to ['sondonghyun7@hyundai-autoever.com']
+[2022-02-15 09:24:11,813] {logging_mixin.py:95} INFO - [2022-02-15 09:24:11,813] {jobs.py:2562} INFO - Task exited with return code 0

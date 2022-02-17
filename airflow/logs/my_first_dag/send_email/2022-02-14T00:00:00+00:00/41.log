@@ -1,0 +1,61 @@
+[2022-02-15 09:30:13,161] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: my_first_dag.send_email 2022-02-14T00:00:00+00:00 [queued]>
+[2022-02-15 09:30:13,166] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: my_first_dag.send_email 2022-02-14T00:00:00+00:00 [queued]>
+[2022-02-15 09:30:13,167] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-15 09:30:13,167] {__init__.py:1354} INFO - Starting attempt 41 of 41
+[2022-02-15 09:30:13,167] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-15 09:30:13,181] {__init__.py:1374} INFO - Executing <Task(EmailOperator): send_email> on 2022-02-14T00:00:00+00:00
+[2022-02-15 09:30:13,181] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'my_first_dag', 'send_email', '2022-02-14T00:00:00+00:00', '--job_id', '84', '--raw', '-sd', 'DAGS_FOLDER/my_first.py', '--cfg_path', '/tmp/tmpww5wpyl8']
+[2022-02-15 09:30:13,694] {base_task_runner.py:101} INFO - Job 84: Subtask send_email [2022-02-15 09:30:13,694] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2022-02-15 09:30:13,913] {base_task_runner.py:101} INFO - Job 84: Subtask send_email [2022-02-15 09:30:13,913] {__init__.py:305} INFO - Filling up the DagBag from /home/jovyan/airflow/dags/my_first.py
+[2022-02-15 09:30:13,927] {base_task_runner.py:101} INFO - Job 84: Subtask send_email [2022-02-15 09:30:13,926] {cli.py:517} INFO - Running <TaskInstance: my_first_dag.send_email 2022-02-14T00:00:00+00:00 [running]> on host 4c5aeb1c47d1
+[2022-02-15 09:30:19,130] {__init__.py:1580} ERROR - (535, b'5.7.3 Authentication unsuccessful')
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/opt/conda/lib/python3.7/site-packages/airflow/operators/email_operator.py", line 78, in execute
+    mime_subtype=self.mime_subtype, mime_charset=self.mime_charset)
+  File "/opt/conda/lib/python3.7/site-packages/airflow/utils/email.py", line 55, in send_email
+    mime_subtype=mime_subtype, mime_charset=mime_charset, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/airflow/utils/email.py", line 101, in send_email_smtp
+    send_MIME_email(smtp_mail_from, recipients, msg, dryrun)
+  File "/opt/conda/lib/python3.7/site-packages/airflow/utils/email.py", line 125, in send_MIME_email
+    s.login(SMTP_USER, SMTP_PASSWORD)
+  File "/opt/conda/lib/python3.7/smtplib.py", line 735, in login
+    raise last_exception
+  File "/opt/conda/lib/python3.7/smtplib.py", line 726, in login
+    initial_response_ok=initial_response_ok)
+  File "/opt/conda/lib/python3.7/smtplib.py", line 647, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.3 Authentication unsuccessful')
+[2022-02-15 09:30:19,131] {__init__.py:1611} INFO - Marking task as FAILED.
+[2022-02-15 09:30:19,151] {base_task_runner.py:101} INFO - Job 84: Subtask send_email Traceback (most recent call last):
+[2022-02-15 09:30:19,151] {base_task_runner.py:101} INFO - Job 84: Subtask send_email   File "/opt/conda/bin/airflow", line 32, in <module>
+[2022-02-15 09:30:19,151] {base_task_runner.py:101} INFO - Job 84: Subtask send_email     args.func(args)
+[2022-02-15 09:30:19,151] {base_task_runner.py:101} INFO - Job 84: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/utils/cli.py", line 74, in wrapper
+[2022-02-15 09:30:19,151] {base_task_runner.py:101} INFO - Job 84: Subtask send_email     return f(*args, **kwargs)
+[2022-02-15 09:30:19,151] {base_task_runner.py:101} INFO - Job 84: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/bin/cli.py", line 523, in run
+[2022-02-15 09:30:19,151] {base_task_runner.py:101} INFO - Job 84: Subtask send_email     _run(args, dag, ti)
+[2022-02-15 09:30:19,151] {base_task_runner.py:101} INFO - Job 84: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/bin/cli.py", line 442, in _run
+[2022-02-15 09:30:19,151] {base_task_runner.py:101} INFO - Job 84: Subtask send_email     pool=args.pool,
+[2022-02-15 09:30:19,151] {base_task_runner.py:101} INFO - Job 84: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/utils/db.py", line 73, in wrapper
+[2022-02-15 09:30:19,151] {base_task_runner.py:101} INFO - Job 84: Subtask send_email     return func(*args, **kwargs)
+[2022-02-15 09:30:19,151] {base_task_runner.py:101} INFO - Job 84: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+[2022-02-15 09:30:19,151] {base_task_runner.py:101} INFO - Job 84: Subtask send_email     result = task_copy.execute(context=context)
+[2022-02-15 09:30:19,151] {base_task_runner.py:101} INFO - Job 84: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/operators/email_operator.py", line 78, in execute
+[2022-02-15 09:30:19,151] {base_task_runner.py:101} INFO - Job 84: Subtask send_email     mime_subtype=self.mime_subtype, mime_charset=self.mime_charset)
+[2022-02-15 09:30:19,151] {base_task_runner.py:101} INFO - Job 84: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/utils/email.py", line 55, in send_email
+[2022-02-15 09:30:19,151] {base_task_runner.py:101} INFO - Job 84: Subtask send_email     mime_subtype=mime_subtype, mime_charset=mime_charset, **kwargs)
+[2022-02-15 09:30:19,151] {base_task_runner.py:101} INFO - Job 84: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/utils/email.py", line 101, in send_email_smtp
+[2022-02-15 09:30:19,151] {base_task_runner.py:101} INFO - Job 84: Subtask send_email     send_MIME_email(smtp_mail_from, recipients, msg, dryrun)
+[2022-02-15 09:30:19,151] {base_task_runner.py:101} INFO - Job 84: Subtask send_email   File "/opt/conda/lib/python3.7/site-packages/airflow/utils/email.py", line 125, in send_MIME_email
+[2022-02-15 09:30:19,151] {base_task_runner.py:101} INFO - Job 84: Subtask send_email     s.login(SMTP_USER, SMTP_PASSWORD)
+[2022-02-15 09:30:19,151] {base_task_runner.py:101} INFO - Job 84: Subtask send_email   File "/opt/conda/lib/python3.7/smtplib.py", line 735, in login
+[2022-02-15 09:30:19,151] {base_task_runner.py:101} INFO - Job 84: Subtask send_email     raise last_exception
+[2022-02-15 09:30:19,151] {base_task_runner.py:101} INFO - Job 84: Subtask send_email   File "/opt/conda/lib/python3.7/smtplib.py", line 726, in login
+[2022-02-15 09:30:19,151] {base_task_runner.py:101} INFO - Job 84: Subtask send_email     initial_response_ok=initial_response_ok)
+[2022-02-15 09:30:19,151] {base_task_runner.py:101} INFO - Job 84: Subtask send_email   File "/opt/conda/lib/python3.7/smtplib.py", line 647, in auth
+[2022-02-15 09:30:19,151] {base_task_runner.py:101} INFO - Job 84: Subtask send_email     raise SMTPAuthenticationError(code, resp)
+[2022-02-15 09:30:19,151] {base_task_runner.py:101} INFO - Job 84: Subtask send_email smtplib.SMTPAuthenticationError: (535, b'5.7.3 Authentication unsuccessful')
+[2022-02-15 09:30:23,181] {logging_mixin.py:95} INFO - [2022-02-15 09:30:23,180] {jobs.py:2562} INFO - Task exited with return code 1
