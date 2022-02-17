@@ -10,8 +10,7 @@ conda install -y vim
 
 airflow initdb      ##    여기서 버전 문제가 있을 수 있으므로 그것에 맞게 다운그레이드
 
-echo 'export AIRFLOW_HOME=\~/airflow' >> /home/jovyan/.profile
-
+echo 'export AIRFLOW_HOME=\~/airflow' >> /home/jovyan/.profile 
 echo 'export AIRFLOW_HOME=\~/airflow' >> /home/jovyan/.bashrc
 source ~/.profile
 
