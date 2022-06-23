@@ -16,14 +16,14 @@ source ~/.profile
 
 mkdir $AIRFLOW_HOME/dags
 
-
+```
 airflow
 ├── airflow.cfg          <- airflow 환경설정 파일
 ├── airflow.db           <- 데이터베이스(SQLite)파일
 ├── dags                 <- DAG들을 저장하는 디렉토리
 │   └── my_first_dag.py  <- DAG 정의 파이썬 파일
 ├── logs                 <- 로그파일을 저장하는 디렉토리
-
+```
 airflow version
 
 DAG python 파일 작성 후 
